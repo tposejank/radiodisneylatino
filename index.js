@@ -121,7 +121,7 @@ function loadStationsData(countryCode) {
     })
 }
 
-fetch('stations.json').then(response => response.json())
+fetch('https://raw.githubusercontent.com/tposejank/radiodisneylatino/refs/heads/main/stations.json').then(response => response.json())
 .then(data => {
     window.stationData = data;
     const countries = Object.keys(data);
