@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'RDSans';
+    src: url('RDSans.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+div.header {
+    height: 4rem;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+    position: sticky;
+}
+
+div.header img {
+    height: 75%;
+}
+
+div.header .header-page-name {
+    font-family: 'RDSans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+div.country-list {
+    width: 60px;
+    background-color: rgb(15 18 24);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.country-list p {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.country-list p:hover {
+    background-color: rgb(25, 29, 37);
+}
+
+div.country-list p a {
+    color: black;
+    font-family: 'RDSans', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+div.station-list {
+    width: 100%;
+    background-color: #141414;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div.station-controls {
+    background-color: chocolate;
+    margin: .5rem;
+    border-radius: 50px;
+    position: relative;
+}
+
+.load-button {
+    width: 50px;
+    height: 50px;
+    border: 0;
+    background-color: rgb(138, 0, 9);
+    border-radius: 50%;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.load-button svg {
+    width: 75%;
+    height: 75%;
+}
+
+div.station-info {
+    display: flex;
+    gap: 1rem;
+    align-items:baseline;
+    padding: 1rem;
+    font-family: 'RDSans', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.station-item:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+}
+
+div.station-info h2, h3 {
+    margin: 0.5rem 0;
+}
+
+div.player {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    height: 4rem;
+    display: flex;
+    backdrop-filter: blur(12px);
+}
+
+div.player .player-station-information {
+    padding-left: 1rem;
+    display: flex;
+    width: 40%;
+    gap: .7rem;
+    align-items: center;
+}
+
+div.player .player-station-information #player-station-name {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'RDSans', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+}
+
+div.player .player-controls {
+    padding-right: 1rem;
+    width: 60%;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    justify-content: right;
+}
+
+div.player .player-controls button {
+    background-color: rgb(247 0 18);
+    height: 3rem;
+    width: 3rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+div.player .player-controls button:hover {
+    background-color: rgb(172, 0, 11);
+}
+
+div.player .player-controls button svg {
+    width: 1.5rem;
+}
+
+#video {
+    display: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    animation: spin 1s linear infinite;
+}
