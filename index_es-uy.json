@@ -575,32 +575,60 @@
             "ranking": [
                 {
                     "position": 1,
-                    "artistName": "Ros\u00e9",
-                    "trackName": "Number One Girl"
-                },
-                {
-                    "position": 2,
                     "artistName": "Selena Gomez, Benny Blanco & Gracie Abrams",
                     "trackName": "Call Me When You Break Up"
                 },
                 {
-                    "position": 3,
+                    "position": 2,
                     "artistName": "Bad Bunny",
                     "trackName": "Turista"
                 },
                 {
+                    "position": 3,
+                    "artistName": "Ros\u00e9",
+                    "trackName": "Number One Girl"
+                },
+                {
                     "position": 4,
-                    "artistName": "Lady Gaga",
-                    "trackName": "Abracadabra"
+                    "artistName": "Kapo",
+                    "trackName": "Aloh Aloh"
                 },
                 {
                     "position": 5,
-                    "artistName": "Yami Safdie & Camilo",
-                    "trackName": "Querida Yo"
+                    "artistName": "Lady Gaga",
+                    "trackName": "Abracadabra"
                 }
             ],
             "lastEpisodes": {
                 "items": [
+                    {
+                        "title": "Semana del 14/4 al 20/4 de 2025",
+                        "imageUrl": "https://image.simplecastcdn.com/images/5580fc77-9cdf-4700-9cde-ebe228cafc5c/64c53e45-386f-45e2-8229-c03295f12323/3000x3000/img-8461.jpg?aid=rss_feed",
+                        "podcastTitle": "Ranking Latinoam\u00e9rica",
+                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
+                        "duration": 413,
+                        "enclosure": {
+                            "length": "6622204",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/3ba2547e-92d8-4cb9-9821-d3a830c568d3/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=3ba2547e-92d8-4cb9-9821-d3a830c568d3&feed=BxoPp9d0"
+                        },
+                        "id": "5da46926-a93e-43ad-b92a-082e99b7ed5c",
+                        "publishedAt": "2025-04-14T10:00:00.000Z"
+                    },
+                    {
+                        "title": "11/04 | The Driver Era, Luck Ra, Pabllo Vittar & Nathy Peluso, Trueno y m\u00e1s",
+                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/c04dbd52-0255-4702-ba38-bd2bb50fa3eb/3000x3000/nueva-20musica-posteo.jpg?aid=rss_feed",
+                        "podcastTitle": "Nueva M\u00fasica",
+                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
+                        "duration": 389,
+                        "enclosure": {
+                            "length": "6225980",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/0af141ad-2d9c-4f2d-96a3-b79e0413c8bc/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=0af141ad-2d9c-4f2d-96a3-b79e0413c8bc&feed=65LZO9F1"
+                        },
+                        "id": "760a53da-b35b-473a-ba1d-f9e0e295eb20",
+                        "publishedAt": "2025-04-11T21:57:12.000Z"
+                    },
                     {
                         "title": "Semana del 7/4 al 13/4 de 2025",
                         "imageUrl": "https://image.simplecastcdn.com/images/5580fc77-9cdf-4700-9cde-ebe228cafc5c/8c5c3a15-79f6-4af8-9d57-eaa4cbe134b8/3000x3000/img-8386.jpg?aid=rss_feed",
@@ -712,42 +740,27 @@
                         },
                         "id": "ebe7d87a-a331-4be5-a0a4-f3b7eefe2aee",
                         "publishedAt": "2025-03-14T20:23:09.000Z"
-                    },
-                    {
-                        "title": "Semana del 10/3 al 16/3 de 2025",
-                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/2a8df7ff-0510-4f1a-ad1b-b5f6b00e32a5/3000x3000/sanz.jpg?aid=rss_feed",
-                        "podcastTitle": "Ranking Latinoam\u00e9rica",
-                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
-                        "duration": 580,
-                        "enclosure": {
-                            "length": "9286276",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/37aa4fd0-325d-4d76-b74d-7e676909705d/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=37aa4fd0-325d-4d76-b74d-7e676909705d&feed=BxoPp9d0"
-                        },
-                        "id": "adc19ac8-27ab-42ee-b54d-eca86bea7ac6",
-                        "publishedAt": "2025-03-10T10:00:00.000Z"
-                    },
-                    {
-                        "title": "07/03 | Lady Gaga, Be\u00e9le, Miranda! & Conociendo Rusia y m\u00e1s artistas",
-                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/80509f4a-3063-4b27-bc97-d75f55a56642/3000x3000/1080x1080-20-8.jpg?aid=rss_feed",
-                        "podcastTitle": "Nueva M\u00fasica",
-                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
-                        "duration": 472,
-                        "enclosure": {
-                            "length": "7553836",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/ad088dba-03f2-405b-8367-abc940c443e8/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=ad088dba-03f2-405b-8367-abc940c443e8&feed=65LZO9F1"
-                        },
-                        "id": "db3594eb-d076-4723-b90e-98c8cfdd1bf5",
-                        "publishedAt": "2025-03-08T19:11:48.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 632
+                "totalCount": 634
             },
             "limit": 10,
             "items": [
+                {
+                    "slug": "andor_presento_su_segunda_temporada",
+                    "headline": "Andor present\u00f3 su segunda temporada en un exclusivo evento en Londres",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/andor_2_wrd_4fe8988a.png?region=0%2C19%2C1440%2C575",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/andor_2_wrd_4fe8988a.png?region=2%2C0%2C1435%2C807",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/andor_2_wrd_4fe8988a.png?region=316%2C0%2C807%2C807"
+                    },
+                    "categoryPrimary": "EVENTOS",
+                    "categorySecondary": "DISNEY+",
+                    "altText": "Andor present\u00f3 su segunda temporada en un exclusivo evento en Londres",
+                    "contentDate": "2025-04-11T09:15:00-07:00"
+                },
                 {
                     "slug": "ed_sheeran_lanza_azizam",
                     "headline": "Bienvenido \u201cAzizam\u201d, lo nuevo de Ed Sheeran ya est\u00e1 entre nosotros",
@@ -838,22 +851,9 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Mar\u00eda Becerra lanza \"Tat\u00fa\", una balada que deja huella en el coraz\u00f3n",
                     "contentDate": "2025-03-14T08:18:00-07:00"
-                },
-                {
-                    "slug": "mufasa_el_rey_leon_llega_a_disneyplus",
-                    "headline": "MUFASA: EL REY LE\u00d3N llega en marzo a Disney+ con su \u00e9pica historia",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/mufasa_dplus_wrd_5354613b.jpeg?region=0%2C89%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/mufasa_dplus_wrd_5354613b.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/mufasa_dplus_wrd_5354613b.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "CARTELERA",
-                    "categorySecondary": "Disney+",
-                    "altText": "MUFASA: EL REY LE\u00d3N llega en marzo a Disney+ con su \u00e9pica historia",
-                    "contentDate": "2025-03-11T08:14:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjVVJZIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1VSWSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMTFUMDg6MTQ6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTVVGQVNBX0VMX1JFWV9MRU9OX0xMRUdBX0FfRElTTkVZUExVUyJ9fQ==",
+            "initialToken": "eyJQSyI6eyJTIjoiQVJUSUNMRSNNQVJJQV9CRUNFUlJBX0xBTlpBX1RBVFUifSwiU0siOnsiUyI6IkNPVU5UUlkjVVJZIn0sIkdTSTFQSyI6eyJTIjoiQVJUSUNMRVMjQ09VTlRSWSNVUlkifSwiR1NJMVNLIjp7IlMiOiIyMDI1LTAzLTE0VDA4OjE4OjAwLTA3OjAwIn19",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -976,8 +976,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "409bbb5e38cf4df6b844fc089134aa0b-9a252d37f2fce085-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=409bbb5e38cf4df6b844fc089134aa0b,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "0bac46edf6a345a393e6826b3420c457-a0429e4b091cc51a-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=0bac46edf6a345a393e6826b3420c457,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
