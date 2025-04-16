@@ -42,18 +42,18 @@ function playButtonClicked() {
                                 }, 3000); // Retry after 3 seconds
                                 break;
                             case Hls.ErrorTypes.MEDIA_ERROR:
-                                alert(`Fatal media error encountered: ${data}`);
+                                console.log(`Fatal media error encountered:`, data);
                                 // You might want to try recovering the media here,
                                 // but a full reload of the source might be necessary.
                                 hls.recoverMediaError(); // Try to recover media error
                                 break;
                             default:
-                                alert(`An unrecoverable fatal error occurred: ${data}`);
+                                console.error(`An unrecoverable fatal error occurred:`, data);
                                 hls.destroy();
                                 break;
                         }
                     } else {
-                        alert(`Non-fatal error: ${data}`);
+                        console.log(`Non-fatal error:`, data);
                     }
                 })
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
