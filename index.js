@@ -142,7 +142,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     slider.value = 100; // Set initial volume to 50%
 
-    const video = document.getElementById('video');
     video.addEventListener('canplay', function () {
         playButton.innerHTML = pauseSvg;
         playButton.classList.remove('loading');
