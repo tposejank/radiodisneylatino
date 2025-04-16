@@ -30,6 +30,31 @@ function playButtonClicked() {
                 hls.on(Hls.Events.MANIFEST_PARSED, function () {
                     video.play();
                 });
+
+              hls.on(Hls.Events.ERROR, function (event, data) {
+              if (data.fatal) {
+                  switch (data.type) {
+                      case Hls.ErrorTypes.NETWORK_ERROR:
+                          console.log("Fatal network error encountered, attempting to reload manifest...");
+                          // Optionally add a delay before attempting to reload
+                          setTimeout(function() {
+                              hls.loadSource(audioStreamUrl);
+                          }, 3000); // Retry after 3 seconds
+                          break;
+                      case Hls.ErrorTypes.MEDIA_ERROR:
+                          alert("Fatal media error encountered:", data);
+                          // You might want to try recovering the media here,
+                          // but a full reload of the source might be necessary.
+                          hls.recoverMediaError(); // Try to recover media error
+                          break;
+                      default:
+                          alert("An unrecoverable fatal error occurred:", data);
+                          hls.destroy();
+                          break;
+                  }
+              } else {
+                  alert("Non-fatal error:", data);
+              }
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
                 video.src = audioStreamUrl;
                 video.addEventListener('loadedmetadata', function () {
