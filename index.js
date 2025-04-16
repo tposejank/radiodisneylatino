@@ -17,20 +17,6 @@ function playButtonClicked() {
     const video = document.getElementById('video');
     const playButton = document.getElementById('play-button');
 
-    video.addEventListener('canplay', function () {
-        playButton.innerHTML = pauseSvg;
-        playButton.classList.remove('loading');
-    });
-
-    video.addEventListener('play', function (event) {
-        playButton.innerHTML = pauseSvg;
-        playButton.classList.remove('loading');
-    });
-    video.addEventListener('pause', function () {
-        playButton.innerHTML = playSvg;
-        playButton.classList.remove('loading');
-    })
-
     if (window.attachedAudioSource !== window.lastAudioSource) {
         window.lastAudioSource = window.attachedAudioSource;
         const audioStreamUrl = window.attachedAudioSource;
@@ -121,7 +107,7 @@ function loadStationsData(countryCode) {
     })
 }
 
-fetch('https://raw.githubusercontent.com/tposejank/radiodisneylatino/refs/heads/main/stations.json').then(response => response.json())
+fetch('/stations.json').then(response => response.json())
 .then(data => {
     window.stationData = data;
     const countries = Object.keys(data);
@@ -155,4 +141,19 @@ document.addEventListener('DOMContentLoaded', function () {
         video.volume = slider.value / 100;
     });
     slider.value = 100; // Set initial volume to 50%
+
+    const video = document.getElementById('video');
+    video.addEventListener('canplay', function () {
+        playButton.innerHTML = pauseSvg;
+        playButton.classList.remove('loading');
+    });
+
+    video.addEventListener('play', function (event) {
+        playButton.innerHTML = pauseSvg;
+        playButton.classList.remove('loading');
+    });
+    video.addEventListener('pause', function () {
+        playButton.innerHTML = playSvg;
+        playButton.classList.remove('loading');
+    })
 });
