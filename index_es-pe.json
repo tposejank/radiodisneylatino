@@ -853,7 +853,7 @@
                     "contentDate": "2025-03-14T08:18:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjUEVSIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1BFUiJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMTRUMDg6MTg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTUFSSUFfQkVDRVJSQV9MQU5aQV9UQVRVIn19",
+            "initialToken": "eyJQSyI6eyJTIjoiQVJUSUNMRSNNQVJJQV9CRUNFUlJBX0xBTlpBX1RBVFUifSwiR1NJMVNLIjp7IlMiOiIyMDI1LTAzLTE0VDA4OjE4OjAwLTA3OjAwIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1BFUiJ9LCJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjUEVSIn19",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -976,8 +976,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "7e7622d28c6d4e44afd74f16b6cbfc38-82874db4ec021da8-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=7e7622d28c6d4e44afd74f16b6cbfc38,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "dfa13de0eb4140dc86dd4a6e0d6d25f8-80a586056e1895af-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=dfa13de0eb4140dc86dd4a6e0d6d25f8,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
