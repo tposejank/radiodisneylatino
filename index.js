@@ -55,7 +55,7 @@ function playButtonClicked() {
                     } else {
                         alert(`Non-fatal error: ${data}`);
                     }
-                }
+                })
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
                 video.src = audioStreamUrl;
                 video.addEventListener('loadedmetadata', function () {
