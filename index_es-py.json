@@ -478,7 +478,7 @@
                             "title": "Banner Ranking ene24",
                             "description": "",
                             "created_at": "2024-01-16T10:45:15-08:00",
-                            "updated_at": "2024-01-16T11:10:40-08:00",
+                            "updated_at": "2025-04-16T06:29:31-07:00",
                             "rich_title": "",
                             "rich_desc": "",
                             "preview_card_title": "",
@@ -1004,6 +1004,32 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "katy_perry_anuncia_setlist_desde_el_espacio",
+                    "headline": "\u00a1Houston, tenemos setlist! Katy Perry anunci\u00f3 las canciones de su gira \u00a1desde el espacio!\n",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/katy_perry_space_wrd_3b4b19b2.png?region=0%2C37%2C1081%2C432",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/katy_perry_space_wrd_3b4b19b2.png?region=1%2C0%2C1078%2C606",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/katy_perry_space_wrd_3b4b19b2.png?region=239%2C0%2C606%2C606"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "ARTISTAS",
+                    "altText": "\u00a1Houston, tenemos setlist! Katy Perry anunci\u00f3 las canciones de su gira \u00a1desde el espacio!",
+                    "contentDate": "2025-04-15T13:11:00-07:00"
+                },
+                {
+                    "slug": "prince_royce_estrena_nuevo_single",
+                    "headline": "Prince Royce estrena un nuevo single: \u201cHow Deep Is Your Love\u201d",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=0%2C11%2C568%2C227",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=0%2C10%2C568%2C320",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=91%2C0%2C340%2C339"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Prince Royce estrena un nuevo single: \u201cHow Deep  Is Your Love\u201d",
+                    "contentDate": "2025-04-14T15:13:00-07:00"
+                },
+                {
                     "slug": "andor_presento_su_segunda_temporada",
                     "headline": "Andor present\u00f3 su segunda temporada en un exclusivo evento en Londres",
                     "images": {
@@ -1080,35 +1106,9 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Aitana y Myke Towers se unen en \"Sentimiento Natural\"",
                     "contentDate": "2025-03-17T06:15:00-07:00"
-                },
-                {
-                    "slug": "lilo_y_stitch_regresan_en_accion_real",
-                    "headline": "Lilo y Stitch regresan en acci\u00f3n real: el caos llega a los cines en mayo",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/lilo_stitch_wrd_b55a2b6c.jpeg?region=0%2C95%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/lilo_stitch_wrd_b55a2b6c.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/lilo_stitch_wrd_b55a2b6c.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "CARTELERA",
-                    "categorySecondary": "CINE",
-                    "altText": "Lilo y Stitch regresan en acci\u00f3n real: el caos llega a los cines en mayo",
-                    "contentDate": "2025-03-15T08:15:00-07:00"
-                },
-                {
-                    "slug": "maria_becerra_lanza_tatu",
-                    "headline": "Mar\u00eda Becerra lanza \"Tat\u00fa\", una balada que deja huella en el coraz\u00f3n",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/maria_becerra25_wrd_f86b17f0.jpeg?region=0%2C39%2C1536%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/maria_becerra25_wrd_f86b17f0.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/maria_becerra25_wrd_f86b17f0.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Mar\u00eda Becerra lanza \"Tat\u00fa\", una balada que deja huella en el coraz\u00f3n",
-                    "contentDate": "2025-03-14T08:18:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjUFJZIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1BSWSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMTRUMDg6MTg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTUFSSUFfQkVDRVJSQV9MQU5aQV9UQVRVIn19",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjUFJZIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1BSWSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMTdUMDY6MTU6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQUlUQU5BX1lfTVlLRV9UT1dFUlNfTEFOWkFOX1NFTlRJTUlFTlRPX05BVFVSQUwifX0=",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1231,8 +1231,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "eef361a60a33446a8e7eac0b22f068f1-adf430b68276dc21-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=eef361a60a33446a8e7eac0b22f068f1,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "01b0c265f26342c8b93e03aba5345853-898675c56d5ffb10-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=01b0c265f26342c8b93e03aba5345853,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
