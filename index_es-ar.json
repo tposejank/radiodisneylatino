@@ -866,6 +866,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "18/04 | Miranda! & Nicki Nicole, Agus Bernasconi, Turf & Lali, Pedro Cap\u00f3 & La K'onga y m\u00e1s",
+                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/3bd4b921-910f-49db-9ce7-7c93ccaa28b4/3000x3000/img-9199.jpg?aid=rss_feed",
+                        "podcastTitle": "Nueva M\u00fasica",
+                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
+                        "duration": 210,
+                        "enclosure": {
+                            "length": "3366721",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/fea18e3d-46c0-4697-a5a6-df72212285da/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=fea18e3d-46c0-4697-a5a6-df72212285da&feed=65LZO9F1"
+                        },
+                        "id": "9520ef62-7652-4f3e-9060-6191cc45d26e",
+                        "publishedAt": "2025-04-18T19:11:53.000Z"
+                    },
+                    {
                         "title": "Semana del 14/4 al 20/4 de 2025",
                         "imageUrl": "https://image.simplecastcdn.com/images/5580fc77-9cdf-4700-9cde-ebe228cafc5c/64c53e45-386f-45e2-8229-c03295f12323/3000x3000/img-8461.jpg?aid=rss_feed",
                         "podcastTitle": "Ranking Latinoam\u00e9rica",
@@ -990,25 +1004,11 @@
                         },
                         "id": "990bb42c-8ea9-4c39-b955-10e4c58f6c1d",
                         "publishedAt": "2025-03-17T10:00:00.000Z"
-                    },
-                    {
-                        "title": "15/03 | Mar\u00eda Becerra, Selena Gomez, Aitana, Calvin Harris y m\u00e1s artistas",
-                        "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/ce11b71d-7ab2-485e-af0c-1504f330399c/3000x3000/img-8029.jpg?aid=rss_feed",
-                        "podcastTitle": "Nueva M\u00fasica",
-                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
-                        "duration": 454,
-                        "enclosure": {
-                            "length": "7267534",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/642e24dd-0021-4a48-a9a7-9d53b4edea37/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=642e24dd-0021-4a48-a9a7-9d53b4edea37&feed=65LZO9F1"
-                        },
-                        "id": "ebe7d87a-a331-4be5-a0a4-f3b7eefe2aee",
-                        "publishedAt": "2025-03-14T20:23:09.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 634
+                "totalCount": 635
             },
             "limit": 10,
             "items": [
@@ -1240,8 +1240,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "087d8d36077e4888be9aa47cf9fa92e0-8bfc6c59d33604ca-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=087d8d36077e4888be9aa47cf9fa92e0,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "f97f05f4f2674479b378ec35affaaab0-a081bd1b5dd00423-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=f97f05f4f2674479b378ec35affaaab0,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
