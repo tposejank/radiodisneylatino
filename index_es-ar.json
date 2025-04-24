@@ -1013,6 +1013,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "estudio_radio_disney_emanero",
+                    "headline": "Nuevo Estudio Radio Disney: Emanero llega a tu radio con m\u00fasica, sorpresas y un encuentro \u00fanico",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/768x400-_1d50de6f.png?region=0%2C44%2C769%2C307",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/1600x900_9_ffa0f2d6.png?region=0%2C0%2C1601%2C901",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/1080x1080_13_d0779b1e.png?region=0%2C0%2C1081%2C1081"
+                    },
+                    "categoryPrimary": "ESTUDIO",
+                    "categorySecondary": "RADIO DISNEY",
+                    "altText": "Nuevo Estudio Radio Disney: Emanero llega a tu radio con m\u00fasica, sorpresas y un encuentro \u00fanico",
+                    "contentDate": "2025-04-18T11:18:00-07:00"
+                },
+                {
                     "slug": "katy_perry_anuncia_setlist_desde_el_espacio",
                     "headline": "\u00a1Houston, tenemos setlist! Katy Perry anunci\u00f3 las canciones de su gira \u00a1desde el espacio!\n",
                     "images": {
@@ -1102,22 +1115,9 @@
                     "categorySecondary": "ARGENTINA",
                     "altText": "Lollapalooza Argentina celebra sus 10 a\u00f1os con un festival inolvidable",
                     "contentDate": "2025-03-20T06:28:00-07:00"
-                },
-                {
-                    "slug": "luis_fonsi_culmina_su_tour_25_anos",
-                    "headline": "Luis Fonsi culmina su \"25 A\u00f1os Tour\" con un concierto inolvidable en Puerto Rico",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/fonsi_wrd_4b0d3115.jpeg?region=0%2C27%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/fonsi_wrd_4b0d3115.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/fonsi_wrd_4b0d3115.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Luis Fonsi culmina su \"25 A\u00f1os Tour\" con un concierto inolvidable en Puerto Rico",
-                    "contentDate": "2025-03-18T07:14:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQVJHIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0FSRyJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMThUMDc6MTQ6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTFVJU19GT05TSV9DVUxNSU5BX1NVX1RPVVJfMjVfQU5PUyJ9fQ==",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQVJHIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0FSRyJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMjBUMDY6Mjg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTE9MTEFfQVJfMjAyNV9MT19RVUVfSEFZX1FVRV9TQUJFUiJ9fQ==",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1240,8 +1240,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "f69bb1d11bda4abfb0148a586d5bc464-838add748a67ef4d-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=f69bb1d11bda4abfb0148a586d5bc464,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "76e0f549071d4ffcb7014a661906ba84-80456d43405b042b-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=76e0f549071d4ffcb7014a661906ba84,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
