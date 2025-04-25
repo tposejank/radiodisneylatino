@@ -1016,9 +1016,9 @@
                     "slug": "estudio_radio_disney_emanero",
                     "headline": "Nuevo Estudio Radio Disney: Emanero llega a tu radio con m\u00fasica, sorpresas y un encuentro \u00fanico",
                     "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/768x400-_1d50de6f.png?region=0%2C44%2C769%2C307",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/1600x900_9_ffa0f2d6.png?region=0%2C0%2C1601%2C901",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/1080x1080_13_d0779b1e.png?region=0%2C0%2C1081%2C1081"
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=0%2C65%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=336%2C0%2C864%2C864"
                     },
                     "categoryPrimary": "ESTUDIO",
                     "categorySecondary": "RADIO DISNEY",
@@ -1240,8 +1240,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "76e0f549071d4ffcb7014a661906ba84-80456d43405b042b-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=76e0f549071d4ffcb7014a661906ba84,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "7311e3d44acd4c50b4d8896f4d7cd373-adcf4bf659c05894-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=7311e3d44acd4c50b4d8896f4d7cd373,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
