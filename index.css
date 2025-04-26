@@ -35,6 +35,8 @@ div.country-list {
     height: 100%;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 div.country-list p {
@@ -108,14 +110,13 @@ div.station-info h2, h3 {
 }
 
 div.player {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 1);
     text-align: center;
     height: 4rem;
     display: flex;
-    backdrop-filter: blur(12px);
 }
 
 div.player .player-station-information {

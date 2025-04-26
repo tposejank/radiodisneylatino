@@ -25,6 +25,7 @@ function playButtonClicked() {
         if (ism3u8) {
             if (Hls.isSupported()) {
                 var hls = new Hls();
+                window.hls = hls;
                 hls.loadSource(audioStreamUrl);
                 hls.attachMedia(video);
                 hls.on(Hls.Events.MANIFEST_PARSED, function () {
@@ -85,6 +86,9 @@ function playStation(stationData) {
 
     const playButton = document.getElementById('play-button');
     video.pause();
+    if (window.hls) {
+        window.hls.destroy();
+    }
     playButton.innerHTML = playSvg;
 
     const playerStationInfo = document.getElementById('player-station-name');
@@ -135,6 +139,24 @@ function loadStationsData(countryCode) {
 
 fetch('/stations.json').then(response => response.json())
 .then(data => {
+    data['es-tr'] = [
+        {
+            streamingUrl: 'https://d1e516nbg3owt2.cloudfront.net/index.m3u8',
+            name: 'Tropicalida',
+            dial: '91.3 FM',
+            title: 'Tropicalida EC'
+        }
+    ]
+
+    data['es-al'] = [
+        {
+            streamingUrl: 'https://d2oubcpl50vyui.cloudfront.net/index.m3u8',
+            name: 'Alfa Radio',
+            dial: '104.1 FM',
+            title: 'Alfa Radio EC'
+        }
+    ]
+
     window.stationData = data;
     const countries = Object.keys(data);
     countries.forEach(country => {
