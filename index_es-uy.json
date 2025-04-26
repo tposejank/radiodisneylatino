@@ -602,6 +602,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "24/04 | Benson Boone, Elena Rose ft Camilo & Los \u00c1ngeles Azules, Lali, Juanes y m\u00e1s!",
+                        "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/5d3b0599-7779-49eb-9da1-3faa5cbfe5c0/3000x3000/img-9392.jpg?aid=rss_feed",
+                        "podcastTitle": "Nueva M\u00fasica",
+                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
+                        "duration": 536,
+                        "enclosure": {
+                            "length": "8579507",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/99c1ba3c-13e7-49ee-9f55-c8e5608da827/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=99c1ba3c-13e7-49ee-9f55-c8e5608da827&feed=65LZO9F1"
+                        },
+                        "id": "8d797d87-5435-4d72-bb9b-dc407d39e25b",
+                        "publishedAt": "2025-04-25T20:23:17.000Z"
+                    },
+                    {
                         "title": "Semana del 21/4 al 27/4 de 2025",
                         "imageUrl": "https://image.simplecastcdn.com/images/5580fc77-9cdf-4700-9cde-ebe228cafc5c/e74fdd3d-1a39-4d82-a705-3ab458434d3a/3000x3000/img-8489.jpg?aid=rss_feed",
                         "podcastTitle": "Ranking Latinoam\u00e9rica",
@@ -726,25 +740,11 @@
                         },
                         "id": "54d927db-eb23-42c9-beb8-bd76aa444375",
                         "publishedAt": "2025-03-24T10:00:00.000Z"
-                    },
-                    {
-                        "title": "21/03 |  Sebasti\u00e1n Yatra , Jonas Brothers, Ozuna y muchos m\u00e1s",
-                        "imageUrl": "https://image.simplecastcdn.com/images/441e0c6b-6604-45e1-a1b6-20e89e27acec/8c1cba41-2774-4deb-b2a7-3af7fbb2d88c/3000x3000/cuadrada.jpg?aid=rss_feed",
-                        "podcastTitle": "Nueva M\u00fasica",
-                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
-                        "duration": 485,
-                        "enclosure": {
-                            "length": "7773682",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/1d7b0cfb-1d73-4501-a545-a9eef19dc2e5/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=1d7b0cfb-1d73-4501-a545-a9eef19dc2e5&feed=65LZO9F1"
-                        },
-                        "id": "7fdc66ed-6e76-4bdc-abe7-7240a8c2f73e",
-                        "publishedAt": "2025-03-21T20:25:17.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 636
+                "totalCount": 637
             },
             "limit": 10,
             "items": [
@@ -855,6 +855,12 @@
             ],
             "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjVVJZIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1VSWSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMTdUMDY6MTU6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQUlUQU5BX1lfTVlLRV9UT1dFUlNfTEFOWkFOX1NFTlRJTUlFTlRPX05BVFVSQUwifX0=",
             "youtubeEmbed": [
+                {
+                    "width": "1280",
+                    "video": "xlqGRLZIKoU",
+                    "thumbnailQuality": "maxresdefault",
+                    "height": "720"
+                },
                 {
                     "width": "1280",
                     "video": "2WN9K8hwefE",
@@ -968,16 +974,10 @@
                     "video": "zDzyQZG40HQ",
                     "thumbnailQuality": "maxresdefault",
                     "height": "720"
-                },
-                {
-                    "width": "1280",
-                    "video": "9bNcxvbu39g",
-                    "thumbnailQuality": "maxresdefault",
-                    "height": "720"
                 }
             ],
-            "_sentryTraceData": "5e8dbd0b5af94cf08b9c5bfdb230c4f5-9e692aec97cb3d1a-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=5e8dbd0b5af94cf08b9c5bfdb230c4f5,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "be4e4c99231c46db8d9830d582527fe2-92d098249679b3c7-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=be4e4c99231c46db8d9830d582527fe2,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
