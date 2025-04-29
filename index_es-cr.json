@@ -857,6 +857,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "Semana del 28/4 al 4/5 de 2025",
+                        "imageUrl": "https://image.simplecastcdn.com/images/5580fc77-9cdf-4700-9cde-ebe228cafc5c/c64dc9b0-3d53-47e9-99b9-c0d9f9a4e80c/3000x3000/img-9394.jpg?aid=rss_feed",
+                        "podcastTitle": "Ranking Latinoam\u00e9rica",
+                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
+                        "duration": 374,
+                        "enclosure": {
+                            "length": "5987324",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/5f8a78ab-947f-4c3d-881c-0f021ea8dadb/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=5f8a78ab-947f-4c3d-881c-0f021ea8dadb&feed=BxoPp9d0"
+                        },
+                        "id": "c3f78412-34d9-475a-b23c-b849cdb56e07",
+                        "publishedAt": "2025-04-28T10:00:00.000Z"
+                    },
+                    {
                         "title": "24/04 | Benson Boone, Elena Rose ft Camilo & Los \u00c1ngeles Azules, Lali, Juanes y m\u00e1s!",
                         "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/5d3b0599-7779-49eb-9da1-3faa5cbfe5c0/3000x3000/img-9392.jpg?aid=rss_feed",
                         "podcastTitle": "Nueva M\u00fasica",
@@ -981,28 +995,27 @@
                         },
                         "id": "a6a895e7-244d-4246-accf-ba8bf974eac1",
                         "publishedAt": "2025-03-28T20:47:11.000Z"
-                    },
-                    {
-                        "title": "Semana del 24/3 al 30/3 de 2025",
-                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/1f9f4c68-3fda-45c7-89c0-b22cd2afcab3/3000x3000/rnk-portada.jpg?aid=rss_feed",
-                        "podcastTitle": "Ranking Latinoam\u00e9rica",
-                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
-                        "duration": 409,
-                        "enclosure": {
-                            "length": "6550315",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/257f410b-251d-4b23-bb48-dc6e782d9a45/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=257f410b-251d-4b23-bb48-dc6e782d9a45&feed=BxoPp9d0"
-                        },
-                        "id": "54d927db-eb23-42c9-beb8-bd76aa444375",
-                        "publishedAt": "2025-03-24T10:00:00.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 637
+                "totalCount": 638
             },
             "limit": 10,
             "items": [
+                {
+                    "slug": "benson_boone_lanzo_mystical_magical",
+                    "headline": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C59%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=336%2C0%2C864%2C864"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
+                    "contentDate": "2025-04-25T14:11:00-07:00"
+                },
                 {
                     "slug": "katy_perry_anuncia_setlist_desde_el_espacio",
                     "headline": "\u00a1Houston, tenemos setlist! Katy Perry anunci\u00f3 las canciones de su gira \u00a1desde el espacio!\n",
@@ -1093,22 +1106,9 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Luis Fonsi culmina su \"25 A\u00f1os Tour\" con un concierto inolvidable en Puerto Rico",
                     "contentDate": "2025-03-18T07:14:00-07:00"
-                },
-                {
-                    "slug": "aitana_y_myke_towers_lanzan_sentimiento_natural",
-                    "headline": "Aitana y Myke Towers se unen en \"Sentimiento Natural\"",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/aitana_y_myke_towers_wrd_304f35ec.jpeg?region=0%2C50%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/aitana_y_myke_towers_wrd_304f35ec.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/aitana_y_myke_towers_wrd_304f35ec.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Aitana y Myke Towers se unen en \"Sentimiento Natural\"",
-                    "contentDate": "2025-03-17T06:15:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQ1JJIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0NSSSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMTdUMDY6MTU6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQUlUQU5BX1lfTVlLRV9UT1dFUlNfTEFOWkFOX1NFTlRJTUlFTlRPX05BVFVSQUwifX0=",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQ1JJIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0NSSSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMThUMDc6MTQ6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTFVJU19GT05TSV9DVUxNSU5BX1NVX1RPVVJfMjVfQU5PUyJ9fQ==",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1231,8 +1231,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "e849161ef4c94a9e9659d9e8538f5934-b815e3f2ae19251c-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=e849161ef4c94a9e9659d9e8538f5934,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "76d000f20ef44fef8fa1e61dee81c269-9e0f16b2a884b3e2-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=76d000f20ef44fef8fa1e61dee81c269,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
