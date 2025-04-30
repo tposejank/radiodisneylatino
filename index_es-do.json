@@ -806,6 +806,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "maroon_5_y_lisa_anuncian_colab",
+                    "headline": "Maroon 5 y LISA de BLACKPINK sorprenden con su nueva colaboraci\u00f3n \"Priceless\"",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/20250428_161255439_ios_02401383.png?region=0%2C19%2C811%2C323",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/20250428_161255439_ios_02401383.png?region=1%2C0%2C808%2C455",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/20250428_161255439_ios_02401383.png?region=178%2C0%2C455%2C455"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Maroon 5 y LISA de BLACKPINK sorprenden con su nueva colaboraci\u00f3n \"Priceless\"",
+                    "contentDate": "2025-04-28T06:11:00-07:00"
+                },
+                {
                     "slug": "benson_boone_lanzo_mystical_magical",
                     "headline": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
                     "images": {
@@ -817,6 +830,19 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
                     "contentDate": "2025-04-25T14:11:00-07:00"
+                },
+                {
+                    "slug": "nominados_gardel_2025",
+                    "headline": "Premios Gardel 2025: se anunciaron los nominados y hay sorpresas",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C57%2C1421%2C567",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C1%2C1420%2C798",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=572%2C1%2C800%2C799"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "PREMIOS GARDEL 2025",
+                    "altText": "Premios Gardel 2025: se anunciaron los nominados y hay sorpresas",
+                    "contentDate": "2025-04-24T14:38:00-07:00"
                 },
                 {
                     "slug": "katy_perry_anuncia_setlist_desde_el_espacio",
@@ -882,35 +908,9 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Bienvenido \u201cAzizam\u201d, lo nuevo de Ed Sheeran ya est\u00e1 entre nosotros",
                     "contentDate": "2025-04-04T12:08:00-07:00"
-                },
-                {
-                    "slug": "tini_anuncia_futttura",
-                    "headline": "TINI anuncia su propio festival que promete ser toda una experiencia",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/tini_futttura_wrd_5b40d360.png?region=0%2C29%2C1081%2C431",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/tini_futttura_wrd_5b40d360.png?region=1%2C0%2C1078%2C606",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/tini_futttura_wrd_5b40d360.png?region=179%2C0%2C606%2C606"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "TINI anuncia su propio festival que promete ser toda una experiencia",
-                    "contentDate": "2025-04-03T18:11:00-07:00"
-                },
-                {
-                    "slug": "morat_y_camilo_lanzan_colaboracion",
-                    "headline": "Camilo y Morat se unen en \"Me Toca a M\u00ed\"",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/morat_y_camilo_wrd_19f18f28.png?region=0%2C40%2C1166%2C465",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/morat_y_camilo_wrd_19f18f28.png?region=0%2C0%2C1165%2C656",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/morat_y_camilo_wrd_19f18f28.png?region=216%2C0%2C656%2C656"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Camilo y Morat se unen en \"Me Toca a M\u00ed\"",
-                    "contentDate": "2025-03-25T08:08:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRE9NIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0RPTSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMjVUMDg6MDg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTU9SQVRfWV9DQU1JTE9fTEFOWkFOX0NPTEFCT1JBQ0lPTiJ9fQ==",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRE9NIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0RPTSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDRUMTI6MDg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjRURfU0hFRVJBTl9MQU5aQV9BWklaQU0ifX0=",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1033,8 +1033,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "642fce46c1564abcb787c350b267181e-8707c392f59c1962-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=642fce46c1564abcb787c350b267181e,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "858ff1b13eb042da9c5843558c730170-8624eb2dcc9f1b61-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=858ff1b13eb042da9c5843558c730170,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

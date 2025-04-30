@@ -1049,6 +1049,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "maroon_5_y_lisa_anuncian_colab",
+                    "headline": "Maroon 5 y LISA de BLACKPINK sorprenden con su nueva colaboraci\u00f3n \"Priceless\"",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/20250428_161255439_ios_02401383.png?region=0%2C19%2C811%2C323",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/20250428_161255439_ios_02401383.png?region=1%2C0%2C808%2C455",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/20250428_161255439_ios_02401383.png?region=178%2C0%2C455%2C455"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Maroon 5 y LISA de BLACKPINK sorprenden con su nueva colaboraci\u00f3n \"Priceless\"",
+                    "contentDate": "2025-04-28T06:11:00-07:00"
+                },
+                {
                     "slug": "benson_boone_lanzo_mystical_magical",
                     "headline": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
                     "images": {
@@ -1060,6 +1073,19 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
                     "contentDate": "2025-04-25T14:11:00-07:00"
+                },
+                {
+                    "slug": "nominados_gardel_2025",
+                    "headline": "Premios Gardel 2025: se anunciaron los nominados y hay sorpresas",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C57%2C1421%2C567",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C1%2C1420%2C798",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=572%2C1%2C800%2C799"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "PREMIOS GARDEL 2025",
+                    "altText": "Premios Gardel 2025: se anunciaron los nominados y hay sorpresas",
+                    "contentDate": "2025-04-24T14:38:00-07:00"
                 },
                 {
                     "slug": "katy_perry_anuncia_setlist_desde_el_espacio",
@@ -1125,35 +1151,9 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "TINI anuncia su propio festival que promete ser toda una experiencia",
                     "contentDate": "2025-04-03T18:11:00-07:00"
-                },
-                {
-                    "slug": "morat_y_camilo_lanzan_colaboracion",
-                    "headline": "Camilo y Morat se unen en \"Me Toca a M\u00ed\"",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/morat_y_camilo_wrd_19f18f28.png?region=0%2C40%2C1166%2C465",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/morat_y_camilo_wrd_19f18f28.png?region=0%2C0%2C1165%2C656",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/morat_y_camilo_wrd_19f18f28.png?region=216%2C0%2C656%2C656"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Camilo y Morat se unen en \"Me Toca a M\u00ed\"",
-                    "contentDate": "2025-03-25T08:08:00-07:00"
-                },
-                {
-                    "slug": "luis_fonsi_culmina_su_tour_25_anos",
-                    "headline": "Luis Fonsi culmina su \"25 A\u00f1os Tour\" con un concierto inolvidable en Puerto Rico",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/fonsi_wrd_4b0d3115.jpeg?region=0%2C27%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/fonsi_wrd_4b0d3115.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/fonsi_wrd_4b0d3115.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Luis Fonsi culmina su \"25 A\u00f1os Tour\" con un concierto inolvidable en Puerto Rico",
-                    "contentDate": "2025-03-18T07:14:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQk9MIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JPTCJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDMtMThUMDc6MTQ6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTFVJU19GT05TSV9DVUxNSU5BX1NVX1RPVVJfMjVfQU5PUyJ9fQ==",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQk9MIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JPTCJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDNUMTg6MTE6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjVElOSV9BTlVOQ0lBX0ZVVFRUVVJBIn19",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1276,8 +1276,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "1125bfc988c547dfb083de59f9f6287d-9664d13441d19725-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=1125bfc988c547dfb083de59f9f6287d,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "30199ae68b754baaa02db69cca73fb3e-8209d5d8793a2e5e-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=30199ae68b754baaa02db69cca73fb3e,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
