@@ -1004,6 +1004,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "lali_lanza_su_sexto_album",
+                    "headline": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/lali2025alb_wrd_053a596b.jpeg?region=0%2C110%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/lali2025alb_wrd_053a596b.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/lali2025alb_wrd_053a596b.jpeg?region=336%2C0%2C864%2C864"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
+                    "contentDate": "2025-04-30T06:10:00-07:00"
+                },
+                {
                     "slug": "maroon_5_y_lisa_anuncian_colab",
                     "headline": "Maroon 5 y LISA de BLACKPINK sorprenden con su nueva colaboraci\u00f3n \"Priceless\"",
                     "images": {
@@ -1093,22 +1106,9 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Bienvenido \u201cAzizam\u201d, lo nuevo de Ed Sheeran ya est\u00e1 entre nosotros",
                     "contentDate": "2025-04-04T12:08:00-07:00"
-                },
-                {
-                    "slug": "tini_anuncia_futttura",
-                    "headline": "TINI anuncia su propio festival que promete ser toda una experiencia",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/tini_futttura_wrd_5b40d360.png?region=0%2C29%2C1081%2C431",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/tini_futttura_wrd_5b40d360.png?region=1%2C0%2C1078%2C606",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/tini_futttura_wrd_5b40d360.png?region=179%2C0%2C606%2C606"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "TINI anuncia su propio festival que promete ser toda una experiencia",
-                    "contentDate": "2025-04-03T18:11:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRUNVIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0VDVSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDNUMTg6MTE6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjVElOSV9BTlVOQ0lBX0ZVVFRUVVJBIn19",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRUNVIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0VDVSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDRUMTI6MDg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjRURfU0hFRVJBTl9MQU5aQV9BWklaQU0ifX0=",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1231,8 +1231,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "99eb70a310f4407987925f396d17d74f-82c96f9d912c5358-1",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=99eb70a310f4407987925f396d17d74f,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=true"
+            "_sentryTraceData": "27a1e4b3b9b44c31b8bb42f3602abe36-88c976a8b57ab745-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=27a1e4b3b9b44c31b8bb42f3602abe36,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

@@ -806,6 +806,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "lali_lanza_su_sexto_album",
+                    "headline": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/lali2025alb_wrd_053a596b.jpeg?region=0%2C110%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/lali2025alb_wrd_053a596b.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/lali2025alb_wrd_053a596b.jpeg?region=336%2C0%2C864%2C864"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
+                    "contentDate": "2025-04-30T06:10:00-07:00"
+                },
+                {
                     "slug": "maroon_5_y_lisa_anuncian_colab",
                     "headline": "Maroon 5 y LISA de BLACKPINK sorprenden con su nueva colaboraci\u00f3n \"Priceless\"",
                     "images": {
@@ -895,22 +908,9 @@
                     "categorySecondary": "REP\u00daBLICA DOMINICANA",
                     "altText": "Te llevamos a ver a Reik en Argentina",
                     "contentDate": "2025-04-07T02:09:00-07:00"
-                },
-                {
-                    "slug": "ed_sheeran_lanza_azizam",
-                    "headline": "Bienvenido \u201cAzizam\u201d, lo nuevo de Ed Sheeran ya est\u00e1 entre nosotros",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/ed_sheeran_azizam_wrd_e98fca5e.jpeg?region=0%2C71%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/ed_sheeran_azizam_wrd_e98fca5e.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/ed_sheeran_azizam_wrd_e98fca5e.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Bienvenido \u201cAzizam\u201d, lo nuevo de Ed Sheeran ya est\u00e1 entre nosotros",
-                    "contentDate": "2025-04-04T12:08:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRE9NIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0RPTSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDRUMTI6MDg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjRURfU0hFRVJBTl9MQU5aQV9BWklaQU0ifX0=",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRE9NIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0RPTSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDdUMDI6MDk6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjRVhQRVJJRU5DSUFWSVBfUkVJS19SRERPIn19",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1033,8 +1033,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "858ff1b13eb042da9c5843558c730170-8624eb2dcc9f1b61-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=858ff1b13eb042da9c5843558c730170,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "10edefa851304860b4c687b166cf73ec-aff075d5311286a5-1",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=10edefa851304860b4c687b166cf73ec,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=true"
         },
         "__N_SSP": true
     },
