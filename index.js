@@ -141,7 +141,7 @@ fetch('/stations.json').then(response => response.json())
 .then(data => {
     data['es-tr'] = [
         {
-            streamingUrl: 'https://d1e516nbg3owt2.cloudfront.net/index.m3u8',
+            streamingUrl: 'https://api.festivaltracker.org/aHR0cHM6Ly9kMWU1MTZuYmczb3d0Mi5jbG91ZGZyb250Lm5ldC9pbmRleC5tM3U4/index.m3u8',
             name: 'Tropicalida',
             dial: '91.3 FM',
             title: 'Tropicalida EC'
@@ -150,7 +150,7 @@ fetch('/stations.json').then(response => response.json())
 
     data['es-al'] = [
         {
-            streamingUrl: 'https://d2oubcpl50vyui.cloudfront.net/index.m3u8',
+            streamingUrl: 'https://api.festivaltracker.org/aHR0cHM6Ly9kMm91YmNwbDUwdnl1aS5jbG91ZGZyb250Lm5ldC9pbmRleC5tM3U4/index.m3u8',
             name: 'Alfa Radio',
             dial: '104.1 FM',
             title: 'Alfa Radio EC'
