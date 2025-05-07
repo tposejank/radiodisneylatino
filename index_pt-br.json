@@ -558,6 +558,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "voce_e_sua_familia_no_lugar_mais_magico_da_terra",
+                    "headline": "Voc\u00ea e sua fam\u00edlia no lugar mais m\u00e1gico do mundo!",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/img_5914_de946e20.png?region=0%2C0%2C2000%2C800",
+                        "featuredImage16x9": "/img/placeholders/bra/featuredImage16x9.png",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/img_5913_4e94065d.png?region=0%2C0%2C1080%2C1080"
+                    },
+                    "categoryPrimary": "CONCURSO",
+                    "categorySecondary": "PARKS",
+                    "altText": "Voc\u00ea e sua fam\u00edlia no lugar mais m\u00e1gico do mundo!",
+                    "contentDate": "2025-05-05T16:11:00-07:00"
+                },
+                {
                     "slug": "o-som-e-a-silaba-nova-serie-nacional-disney-plus",
                     "headline": "\u201cO Som e a S\u00edlaba\u201d \u00e9 a nova s\u00e9rie nacional do Disney+",
                     "images": {
@@ -647,22 +660,9 @@
                     "categorySecondary": "M\u00fasica",
                     "altText": "Lady Gaga e Bruno Mars juntos pela primeira vez!",
                     "contentDate": "2024-08-22T12:31:11-07:00"
-                },
-                {
-                    "slug": "vem-ver-o-novo-trailer-de-moana-2",
-                    "headline": "Vem ver o novo trailer de Moana 2!",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/moanaimg_a4d2e671.jpeg?region=1%2C42%2C1047%2C421",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/moanaimg_a4d2e671.jpeg?region=0%2C34%2C1048%2C590",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/moanaimg_a4d2e671.jpeg?region=195%2C0%2C658%2C658"
-                    },
-                    "categoryPrimary": "Novidades",
-                    "categorySecondary": "Filme",
-                    "altText": "Vem ver o novo trailer de Moana 2!",
-                    "contentDate": "2024-08-21T03:00:02-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjFUMDM6MDA6MDItMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjVkVNLVZFUi1PLU5PVk8tVFJBSUxFUi1ERS1NT0FOQS0yIn19",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjJUMTI6MzE6MTEtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTEFEWS1HQUdBLUUtQlJVTk8tTUFSUy1KVU5UT1MtUEVMQS1QUklNRUlSQS1WRVoifX0=",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -785,8 +785,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "6e05d9a5f45b4ecc86180c65c7aa0c1b-a7662e9d7221915b-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=6e05d9a5f45b4ecc86180c65c7aa0c1b,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "5cca6a18abc74892a86920955c794791-ad580c3596c2bcac-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=5cca6a18abc74892a86920955c794791,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
