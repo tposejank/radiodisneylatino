@@ -602,6 +602,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "Semana del 5/5 al 11/5 de 2025",
+                        "imageUrl": "https://image.simplecastcdn.com/images/c3d53451-a98a-4708-a4f7-bf13cca215bc/302418f3-a8f9-4a1a-84a4-97c933b1988a/3000x3000/1080x10800.jpg?aid=rss_feed",
+                        "podcastTitle": "Ranking Latinoam\u00e9rica",
+                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
+                        "duration": 408,
+                        "enclosure": {
+                            "length": "6533597",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/df8f4eee-d67d-4fa4-a6f0-2cc7e10b484c/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=df8f4eee-d67d-4fa4-a6f0-2cc7e10b484c&feed=BxoPp9d0"
+                        },
+                        "id": "d7397e70-9daf-48cb-a18b-3df2414ea325",
+                        "publishedAt": "2025-05-08T14:04:18.000Z"
+                    },
+                    {
                         "title": "02/05 | Maroon 5 ft Lisa, Lali, Ed Sheeran y m\u00e1s!",
                         "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/14dde457-bff0-474d-8d08-ecdb5c30f63c/3000x3000/img-9695.jpg?aid=rss_feed",
                         "podcastTitle": "Nueva M\u00fasica",
@@ -726,25 +740,11 @@
                         },
                         "id": "eba3b83d-21cf-40e0-89af-6943a3309fb1",
                         "publishedAt": "2025-04-05T02:46:43.000Z"
-                    },
-                    {
-                        "title": "Semana del 31/3 al 6/4 de 2025",
-                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/1f9f4c68-3fda-45c7-89c0-b22cd2afcab3/3000x3000/rnk-portada.jpg?aid=rss_feed",
-                        "podcastTitle": "Ranking Latinoam\u00e9rica",
-                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
-                        "duration": 381,
-                        "enclosure": {
-                            "length": "6103517",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/1b04e404-f4a7-4d05-bdd8-09f163722b11/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=1b04e404-f4a7-4d05-bdd8-09f163722b11&feed=BxoPp9d0"
-                        },
-                        "id": "a5680d47-7260-46f1-848f-fdc0a77b166f",
-                        "publishedAt": "2025-03-31T10:00:00.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 639
+                "totalCount": 640
             },
             "limit": 10,
             "items": [
@@ -976,8 +976,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "751e24176d47455e962ae7a18c94981f-8ae0a4f75a84c399-1",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=751e24176d47455e962ae7a18c94981f,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=true"
+            "_sentryTraceData": "16a97bc69e164b039cffa0c5125f1144-b9fcb0eda78a9952-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=16a97bc69e164b039cffa0c5125f1144,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

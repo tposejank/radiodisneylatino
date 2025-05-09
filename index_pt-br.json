@@ -562,7 +562,7 @@
                     "headline": "Voc\u00ea e sua fam\u00edlia no lugar mais m\u00e1gico do mundo!",
                     "images": {
                         "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/img_5914_de946e20.png?region=0%2C0%2C2000%2C800",
-                        "featuredImage16x9": "/img/placeholders/bra/featuredImage16x9.png",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/familia_parques_novo_579b2220.png?region=0%2C0%2C1920%2C1080",
                         "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/img_5913_4e94065d.png?region=0%2C0%2C1080%2C1080"
                     },
                     "categoryPrimary": "CONCURSO",
@@ -785,8 +785,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "2d4b7c2e19334a7abe7128f2acdd315e-9b66f56344abceb0-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=2d4b7c2e19334a7abe7128f2acdd315e,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "e05002de2a5840c2b9c555baf92b3de2-9af2a7f4d56489cb-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=e05002de2a5840c2b9c555baf92b3de2,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
