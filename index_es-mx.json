@@ -917,6 +917,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "09/05 | Maria Becerra ft Paulo Londra, Miranda! & Tini, Aitana y m\u00e1s!",
+                        "imageUrl": "https://image.simplecastcdn.com/images/c3d53451-a98a-4708-a4f7-bf13cca215bc/9dfab09b-bd6c-4fca-833a-96e85f7568ee/3000x3000/nueva-20musica-posteo.jpg?aid=rss_feed",
+                        "podcastTitle": "Nueva M\u00fasica",
+                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
+                        "duration": 334,
+                        "enclosure": {
+                            "length": "5347457",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/499609a8-fe6b-49e6-9997-74cbfb3a3bca/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=499609a8-fe6b-49e6-9997-74cbfb3a3bca&feed=65LZO9F1"
+                        },
+                        "id": "db2a317a-d72d-4a06-b1f3-2d24e7b3ea0f",
+                        "publishedAt": "2025-05-09T21:53:43.000Z"
+                    },
+                    {
                         "title": "Semana del 5/5 al 11/5 de 2025",
                         "imageUrl": "https://image.simplecastcdn.com/images/c3d53451-a98a-4708-a4f7-bf13cca215bc/302418f3-a8f9-4a1a-84a4-97c933b1988a/3000x3000/1080x10800.jpg?aid=rss_feed",
                         "podcastTitle": "Ranking Latinoam\u00e9rica",
@@ -1041,25 +1055,11 @@
                         },
                         "id": "562a1d2c-1f3b-4598-a7be-0a63a44e7654",
                         "publishedAt": "2025-04-07T10:00:00.000Z"
-                    },
-                    {
-                        "title": "04/04 | Ed Sheeran, Miley Cyrus, Abel Pintos, Ha*Ash y m\u00e1s",
-                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/279a00f2-a4c3-4c25-9298-49954ff4769c/3000x3000/nueva-20musica-posteo.jpg?aid=rss_feed",
-                        "podcastTitle": "Nueva M\u00fasica",
-                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
-                        "duration": 549,
-                        "enclosure": {
-                            "length": "8794339",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/06e51f78-ec57-4aac-8863-9ce861bbef42/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=06e51f78-ec57-4aac-8863-9ce861bbef42&feed=65LZO9F1"
-                        },
-                        "id": "eba3b83d-21cf-40e0-89af-6943a3309fb1",
-                        "publishedAt": "2025-04-05T02:46:43.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 640
+                "totalCount": 641
             },
             "limit": 10,
             "items": [
@@ -1291,8 +1291,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "4b7aa3d2b1c546e6aa277d9d99e64485-b308c4c557effcf4-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=4b7aa3d2b1c546e6aa277d9d99e64485,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "ef0c5cc8921b4cb79556ff628d021cfb-98c2bf4a67f0683b-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=ef0c5cc8921b4cb79556ff628d021cfb,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
