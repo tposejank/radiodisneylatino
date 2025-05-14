@@ -706,7 +706,7 @@
                         "name": "Ciudad de M\u00e9xico",
                         "title": "Radio Disney - Ciudad de M\u00e9xico FM 92.1",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFOFMAAC.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFOFMAAC.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": 27.46431421972425,
                             "longitude": -103.46204475000002,
@@ -721,7 +721,7 @@
                         "name": "Toluca",
                         "title": "Radio Disney - Toluca FM 102.1",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTOMFMAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTOMFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": 19.284077816913562,
                             "longitude": -99.65439673066739,
@@ -736,7 +736,7 @@
                         "name": "Pachuca",
                         "title": "Radio Disney - Pachuca FM 95.7",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPCAFMAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPCAFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": 20.11640054433642,
                             "longitude": -98.742831707198,
@@ -751,7 +751,7 @@
                         "name": "Puebla",
                         "title": "Radio Disney - Puebla FM 92.9",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHECDFMAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHECDFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": 19.054133771497817,
                             "longitude": -98.22493084508524,
@@ -766,7 +766,7 @@
                         "name": "Mazatl\u00e1n",
                         "title": "Radio Disney - Mazatl\u00e1n FM 93.1",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHMZTFMAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHMZTFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": 23.245274,
                             "longitude": -106.446916,
@@ -1291,8 +1291,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "0d172274864c48fbbf642bef61a40cd8-a22639881a4856e9-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=0d172274864c48fbbf642bef61a40cd8,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "097319cff0584aca9c682a4854a59960-b5e70781bcc2a37c-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=097319cff0584aca9c682a4854a59960,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

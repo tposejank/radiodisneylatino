@@ -451,7 +451,7 @@
                         "name": "Uruguay",
                         "title": "Radio Disney - Uruguay FM 103.7",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_URY_MVAAC.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_URY_MV.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -32.41950025196723,
                             "longitude": -55.5736885,
@@ -976,8 +976,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "594832f1c18448f1a41b65b40b6531ab-913c88d120912615-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=594832f1c18448f1a41b65b40b6531ab,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "f5fc6102f358410c9f1d76f876c37a28-839810f68fa2515f-1",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=f5fc6102f358410c9f1d76f876c37a28,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=true"
         },
         "__N_SSP": true
     },

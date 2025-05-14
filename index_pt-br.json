@@ -280,7 +280,7 @@
                         "name": "Brasil",
                         "title": "R\u00e1dio Disney - Brasil FM 91.3",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BRA_SP_ADP.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BRA_SP.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -8.531754695440627,
                             "longitude": -42.07701029999998,
@@ -785,8 +785,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "5067ce7381fe4653831601c4c41f908a-8d7554b6bb102392-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=5067ce7381fe4653831601c4c41f908a,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "657beacbf2674580859ec52202bc0149-9118cb059ec6809b-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=657beacbf2674580859ec52202bc0149,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

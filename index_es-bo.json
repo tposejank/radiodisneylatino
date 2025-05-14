@@ -706,7 +706,7 @@
                         "name": "La Paz",
                         "title": "Radio Disney - La Paz FM 102.7",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -16.489758,
                             "longitude": -68.118844,
@@ -721,7 +721,7 @@
                         "name": "Santa Cruz de la Sierra",
                         "title": "Radio Disney - Santa Cruz de la Sierra FM 98.5",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -17.866667,
                             "longitude": -63,
@@ -736,7 +736,7 @@
                         "name": "Cochabamba",
                         "title": "Radio Disney - Cochabamba FM 102.7",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -16.8637506,
                             "longitude": -65.47573599999998,
@@ -751,7 +751,7 @@
                         "name": "Tarija",
                         "title": "Radio Disney - Tarija FM 100.9",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -21.53969,
                             "longitude": -64.74363,
@@ -1276,8 +1276,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "023bf1917e3c44d69d2d10ddd1ee5b0f-bacd588436cef31c-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=023bf1917e3c44d69d2d10ddd1ee5b0f,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "52210c9fc11f405d9d765c8259080c43-9b81a443246105a8-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=52210c9fc11f405d9d765c8259080c43,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

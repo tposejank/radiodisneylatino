@@ -7,7 +7,7 @@
             "name": "Ciudad de M\u00e9xico",
             "title": "Radio Disney - Ciudad de M\u00e9xico FM 92.1",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFOFMAAC.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFOFMAAC.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": 27.46431421972425,
                 "longitude": -103.46204475000002,
@@ -22,7 +22,7 @@
             "name": "Toluca",
             "title": "Radio Disney - Toluca FM 102.1",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTOMFMAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTOMFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": 19.284077816913562,
                 "longitude": -99.65439673066739,
@@ -37,7 +37,7 @@
             "name": "Pachuca",
             "title": "Radio Disney - Pachuca FM 95.7",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPCAFMAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPCAFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": 20.11640054433642,
                 "longitude": -98.742831707198,
@@ -52,7 +52,7 @@
             "name": "Puebla",
             "title": "Radio Disney - Puebla FM 92.9",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHECDFMAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHECDFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": 19.054133771497817,
                 "longitude": -98.22493084508524,
@@ -67,7 +67,7 @@
             "name": "Mazatl\u00e1n",
             "title": "Radio Disney - Mazatl\u00e1n FM 93.1",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHMZTFMAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHMZTFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": 23.245274,
                 "longitude": -106.446916,
@@ -84,7 +84,7 @@
             "name": "Argentina",
             "title": "Radio Disney - Argentina FM 94.3",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA_ADP.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -42.175192560007694,
                 "longitude": -63.70432595,
@@ -101,7 +101,7 @@
             "name": "La Paz",
             "title": "Radio Disney - La Paz FM 102.7",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -16.489758,
                 "longitude": -68.118844,
@@ -116,7 +116,7 @@
             "name": "Santa Cruz de la Sierra",
             "title": "Radio Disney - Santa Cruz de la Sierra FM 98.5",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -17.866667,
                 "longitude": -63,
@@ -131,7 +131,7 @@
             "name": "Cochabamba",
             "title": "Radio Disney - Cochabamba FM 102.7",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -16.8637506,
                 "longitude": -65.47573599999998,
@@ -146,7 +146,7 @@
             "name": "Tarija",
             "title": "Radio Disney - Tarija FM 100.9",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -21.53969,
                 "longitude": -64.74363,
@@ -163,7 +163,7 @@
             "name": "Brasil",
             "title": "R\u00e1dio Disney - Brasil FM 91.3",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BRA_SP_ADP.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BRA_SP.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -8.531754695440627,
                 "longitude": -42.07701029999998,
@@ -180,7 +180,7 @@
             "name": "Santiago",
             "title": "Radio Disney - Santiago FM 95.3",
             "isDefault": true,
-            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -33.431440887568165,
                 "longitude": -71.19140649999997,
@@ -195,7 +195,7 @@
             "name": "Gran Concepci\u00f3n",
             "title": "Radio Disney - Gran Concepci\u00f3n FM 97.3",
             "isDefault": true,
-            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -33.431440887568165,
                 "longitude": -71.19140649999997,
@@ -210,7 +210,7 @@
             "name": "Arica",
             "title": "Radio Disney - Arica FM 94.1",
             "isDefault": true,
-            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -33.431440887568165,
                 "longitude": -71.19140649999997,
@@ -225,7 +225,7 @@
             "name": "Iquique",
             "title": "Radio Disney - Iquique FM 98.3",
             "isDefault": true,
-            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -33.431440887568165,
                 "longitude": -71.19140649999997,
@@ -240,7 +240,7 @@
             "name": "San Antonio",
             "title": "Radio Disney - San Antonio FM 90.9",
             "isDefault": true,
-            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -33.431440887568165,
                 "longitude": -71.19140649999997,
@@ -274,7 +274,7 @@
             "name": "Santo Domingo",
             "title": "Radio Disney - Santo Domingo FM 97.3",
             "isDefault": true,
-            "streamingUrl": "https://radio5.domint.net:8062/stream",
+            "streamingUrl": "https://stream.zeno.fm/zky9fvlfkootv",
             "location": {
                 "latitude": 18.466667,
                 "longitude": -69.94999999999999,
@@ -289,7 +289,7 @@
             "name": "Santiago",
             "title": "Radio Disney - Santiago FM 89.3",
             "isDefault": true,
-            "streamingUrl": "https://radio3.domint.net:8196/stream",
+            "streamingUrl": "https://stream.zeno.fm/6rmxudfub3cvv",
             "location": {
                 "latitude": 19.466667,
                 "longitude": -70.69999999999999,
@@ -306,7 +306,7 @@
             "name": "Ecuador",
             "title": "Radio Disney - Ecuador FM 93.7",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ECU_GY_ADP.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ECU_GYAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -1.4249326,
                 "longitude": -78.6909263,
@@ -340,11 +340,11 @@
             "name": "Per\u00fa",
             "title": "Radio Disney - Per\u00fa FM 104.7",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PER_LMAAC.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PER_LM.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -12.05559,
                 "longitude": -77.226911,
-                "radius": 7508
+                "radius": 750
             },
             "whatsappNumber": "51938971911"
         }
@@ -357,7 +357,7 @@
             "name": "Paraguay",
             "title": "Radio Disney - Paraguay FM 96.5",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PAR_ASAAC.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PAR_AS.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -23.442503,
                 "longitude": -58.443831999999986,
@@ -374,7 +374,7 @@
             "name": "Uruguay",
             "title": "Radio Disney - Uruguay FM 103.7",
             "isDefault": true,
-            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_URY_MVAAC.m3u8?dist=web-radiodisney",
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_URY_MV.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
                 "latitude": -32.41950025196723,
                 "longitude": -55.5736885,

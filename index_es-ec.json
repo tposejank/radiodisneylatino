@@ -706,7 +706,7 @@
                         "name": "Ecuador",
                         "title": "Radio Disney - Ecuador FM 93.7",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ECU_GY_ADP.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ECU_GYAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -1.4249326,
                             "longitude": -78.6909263,
@@ -1231,8 +1231,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "6811b9ecfa5c4b33b96c6b0cd184a203-bc6dd11d343649d3-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=6811b9ecfa5c4b33b96c6b0cd184a203,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "78ee86a140a24215a89a7bcdc29b1d2c-b8a6c9e2b9ac1a85-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=78ee86a140a24215a89a7bcdc29b1d2c,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

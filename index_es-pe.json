@@ -451,11 +451,11 @@
                         "name": "Per\u00fa",
                         "title": "Radio Disney - Per\u00fa FM 104.7",
                         "isDefault": true,
-                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PER_LMAAC.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PER_LM.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -12.05559,
                             "longitude": -77.226911,
-                            "radius": 7508
+                            "radius": 750
                         },
                         "whatsappNumber": "51938971911"
                     }
@@ -976,8 +976,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "14a5f7c55b824f1d84072c6a70ed638b-b80258fe7f6f2457-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=14a5f7c55b824f1d84072c6a70ed638b,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "c17e644268774379a03f3bfb08000666-a569dd8e5e4bc8bb-1",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=c17e644268774379a03f3bfb08000666,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=true"
         },
         "__N_SSP": true
     },

@@ -706,7 +706,7 @@
                         "name": "Santiago",
                         "title": "Radio Disney - Santiago FM 95.3",
                         "isDefault": true,
-                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -33.431440887568165,
                             "longitude": -71.19140649999997,
@@ -721,7 +721,7 @@
                         "name": "Gran Concepci\u00f3n",
                         "title": "Radio Disney - Gran Concepci\u00f3n FM 97.3",
                         "isDefault": true,
-                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -33.431440887568165,
                             "longitude": -71.19140649999997,
@@ -736,7 +736,7 @@
                         "name": "Arica",
                         "title": "Radio Disney - Arica FM 94.1",
                         "isDefault": true,
-                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -33.431440887568165,
                             "longitude": -71.19140649999997,
@@ -751,7 +751,7 @@
                         "name": "Iquique",
                         "title": "Radio Disney - Iquique FM 98.3",
                         "isDefault": true,
-                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -33.431440887568165,
                             "longitude": -71.19140649999997,
@@ -766,7 +766,7 @@
                         "name": "San Antonio",
                         "title": "Radio Disney - San Antonio FM 90.9",
                         "isDefault": true,
-                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney",
+                        "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
                         "location": {
                             "latitude": -33.431440887568165,
                             "longitude": -71.19140649999997,
@@ -1290,8 +1290,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "b5f8cbe1a6854649b63c4e2de415be29-921cd3e19ef1d659-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=b5f8cbe1a6854649b63c4e2de415be29,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "6d060b39e4644ea09bcb7c22f217ad90-a1704065d9064f0f-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=6d060b39e4644ea09bcb7c22f217ad90,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

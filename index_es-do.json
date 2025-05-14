@@ -493,7 +493,7 @@
                         "name": "Santo Domingo",
                         "title": "Radio Disney - Santo Domingo FM 97.3",
                         "isDefault": true,
-                        "streamingUrl": "https://radio5.domint.net:8062/stream",
+                        "streamingUrl": "https://stream.zeno.fm/zky9fvlfkootv",
                         "location": {
                             "latitude": 18.466667,
                             "longitude": -69.94999999999999,
@@ -508,7 +508,7 @@
                         "name": "Santiago",
                         "title": "Radio Disney - Santiago FM 89.3",
                         "isDefault": true,
-                        "streamingUrl": "https://radio3.domint.net:8196/stream",
+                        "streamingUrl": "https://stream.zeno.fm/6rmxudfub3cvv",
                         "location": {
                             "latitude": 19.466667,
                             "longitude": -70.69999999999999,
@@ -1033,8 +1033,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "5409deffa23d4458bd557c654212304c-a6d12c9bbb78670a-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=5409deffa23d4458bd557c654212304c,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "bf5eff4142ff4a8bbed8a1450ef9406c-9828e8cfedb4acc7-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=bf5eff4142ff4a8bbed8a1450ef9406c,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
