@@ -917,6 +917,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "miranda_lanzo_nuevo_hotel_miranda",
+                    "headline": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C251%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/album_artwork_1c408dbb.jpeg?region=0%2C0%2C1600%2C1600"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "contentDate": "2025-05-14T05:13:00-07:00"
+                },
+                {
                     "slug": "lali_lanza_su_sexto_album",
                     "headline": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
                     "images": {
@@ -1006,22 +1019,9 @@
                     "categorySecondary": "ARTISTAS",
                     "altText": "\u00a1Houston, tenemos setlist! Katy Perry anunci\u00f3 las canciones de su gira \u00a1desde el espacio!",
                     "contentDate": "2025-04-15T13:11:00-07:00"
-                },
-                {
-                    "slug": "prince_royce_estrena_nuevo_single",
-                    "headline": "Prince Royce estrena un nuevo single: \u201cHow Deep Is Your Love\u201d",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=0%2C11%2C568%2C227",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=0%2C10%2C568%2C320",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=91%2C0%2C340%2C339"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Prince Royce estrena un nuevo single: \u201cHow Deep  Is Your Love\u201d",
-                    "contentDate": "2025-04-14T15:13:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQVJHIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0FSRyJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTRUMTU6MTM6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjUFJJTkNFX1JPWUNFX0VTVFJFTkFfTlVFVk9fU0lOR0xFIn19",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQVJHIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0FSRyJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTVUMTM6MTE6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjS0FUWV9QRVJSWV9BTlVOQ0lBX1NFVExJU1RfREVTREVfRUxfRVNQQUNJTyJ9fQ==",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1144,8 +1144,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "e0612b5a686943ddacd548ac5540bdb1-928825f2a89dae61-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=e0612b5a686943ddacd548ac5540bdb1,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "ab031782823b401bbd95fc519435b35d-a4d3a9797d860bd4-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=ab031782823b401bbd95fc519435b35d,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

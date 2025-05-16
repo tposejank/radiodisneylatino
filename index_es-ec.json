@@ -1004,6 +1004,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "miranda_lanzo_nuevo_hotel_miranda",
+                    "headline": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C251%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/album_artwork_1c408dbb.jpeg?region=0%2C0%2C1600%2C1600"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "contentDate": "2025-05-14T05:13:00-07:00"
+                },
+                {
                     "slug": "lali_lanza_su_sexto_album",
                     "headline": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
                     "images": {
@@ -1093,22 +1106,9 @@
                     "categorySecondary": "DISNEY+",
                     "altText": "Andor present\u00f3 su segunda temporada en un exclusivo evento en Londres",
                     "contentDate": "2025-04-11T09:15:00-07:00"
-                },
-                {
-                    "slug": "ed_sheeran_lanza_azizam",
-                    "headline": "Bienvenido \u201cAzizam\u201d, lo nuevo de Ed Sheeran ya est\u00e1 entre nosotros",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/ed_sheeran_azizam_wrd_e98fca5e.jpeg?region=0%2C71%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/ed_sheeran_azizam_wrd_e98fca5e.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/ed_sheeran_azizam_wrd_e98fca5e.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Bienvenido \u201cAzizam\u201d, lo nuevo de Ed Sheeran ya est\u00e1 entre nosotros",
-                    "contentDate": "2025-04-04T12:08:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRUNVIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0VDVSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDRUMTI6MDg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjRURfU0hFRVJBTl9MQU5aQV9BWklaQU0ifX0=",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRUNVIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0VDVSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTFUMDk6MTU6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQU5ET1JfUFJFU0VOVE9fU1VfU0VHVU5EQV9URU1QT1JBREEifX0=",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1231,8 +1231,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "9da07ecc94bd42a987f1c0ad87faeed1-bd6c9d1181fef6af-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=9da07ecc94bd42a987f1c0ad87faeed1,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "5f6054cb0fc247cb917c33facd22456b-875cb5f9ee4305a6-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=5f6054cb0fc247cb917c33facd22456b,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

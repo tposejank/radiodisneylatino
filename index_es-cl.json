@@ -1064,6 +1064,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "miranda_lanzo_nuevo_hotel_miranda",
+                    "headline": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C251%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/album_artwork_1c408dbb.jpeg?region=0%2C0%2C1600%2C1600"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "contentDate": "2025-05-14T05:13:00-07:00"
+                },
+                {
                     "slug": "lali_lanza_su_sexto_album",
                     "headline": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
                     "images": {
@@ -1153,21 +1166,9 @@
                     "categorySecondary": "DISNEY+",
                     "altText": "Andor present\u00f3 su segunda temporada en un exclusivo evento en Londres",
                     "contentDate": "2025-04-11T09:15:00-07:00"
-                },
-                {
-                    "slug": "karen_paola-_y-_kya_en_radio_disney_chile",
-                    "headline": "Karen Paola y KYA visitaron los estudios de Radio Disney Chile",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/karen_kya_wrd_1eb3d731.jpeg?region=0%2C107%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/karen_kya_wrd_1eb3d731.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/karen_kya_wrd_1eb3d731.jpeg?region=336%2C0%2C864%2C864"
-                    },
-                    "categoryPrimary": "ARTISTAS",
-                    "altText": "Karen Paola y KYA visitaron los estudios de Radio Disney Chile",
-                    "contentDate": "2025-04-09T10:11:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQ0hMIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0NITCJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDlUMTA6MTE6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjS0FSRU5fUEFPTEEtX1ktX0tZQV9FTl9SQURJT19ESVNORVlfQ0hJTEUifX0=",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQ0hMIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0NITCJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTFUMDk6MTU6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQU5ET1JfUFJFU0VOVE9fU1VfU0VHVU5EQV9URU1QT1JBREEifX0=",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1290,8 +1291,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "4fe59d2d8cf843e3894a21b0c8b24a1d-8ef28091775ac6cd-1",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=4fe59d2d8cf843e3894a21b0c8b24a1d,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=true"
+            "_sentryTraceData": "bff53239b0a5445fa5f4f0d093c83f88-bf1e787174094865-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=bff53239b0a5445fa5f4f0d093c83f88,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

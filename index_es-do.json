@@ -806,6 +806,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "miranda_lanzo_nuevo_hotel_miranda",
+                    "headline": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C251%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/miranda2025_wrd_69be8314.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/album_artwork_1c408dbb.jpeg?region=0%2C0%2C1600%2C1600"
+                    },
+                    "categoryPrimary": "NOVEDADES",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Nuevo \u00e1lbum, nuevo cap\u00edtulo: Miranda! lanz\u00f3 \u201cNuevo Hotel Miranda!\u201d",
+                    "contentDate": "2025-05-14T05:13:00-07:00"
+                },
+                {
                     "slug": "lali_lanza_su_sexto_album",
                     "headline": "El nuevo \u00e1lbum de LALI: m\u00e1s rockero, visceral y lleno de colaboraciones explosivas",
                     "images": {
@@ -895,22 +908,9 @@
                     "categorySecondary": "DISNEY+",
                     "altText": "Andor present\u00f3 su segunda temporada en un exclusivo evento en Londres",
                     "contentDate": "2025-04-11T09:15:00-07:00"
-                },
-                {
-                    "slug": "experienciavip_reik_rddo",
-                    "headline": "Te llevamos a ver a Reik en Argentina",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/reik_2025_wrd_e62a496a.jpeg?region=0%2C160%2C1537%2C613",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/reik_2025_wrd_e62a496a.jpeg?region=0%2C0%2C1536%2C864",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/foto_d12af78e.jpeg?region=0%2C0%2C1080%2C1080"
-                    },
-                    "categoryPrimary": "CONCURSO",
-                    "categorySecondary": "REP\u00daBLICA DOMINICANA",
-                    "altText": "Te llevamos a ver a Reik en Argentina",
-                    "contentDate": "2025-04-07T02:09:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRE9NIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0RPTSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMDdUMDI6MDk6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjRVhQRVJJRU5DSUFWSVBfUkVJS19SRERPIn19",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjRE9NIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0RPTSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTFUMDk6MTU6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQU5ET1JfUFJFU0VOVE9fU1VfU0VHVU5EQV9URU1QT1JBREEifX0=",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1033,8 +1033,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "f2b00a8135d04c54844fce3b41fe37a5-81612409bc15d2ab-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=f2b00a8135d04c54844fce3b41fe37a5,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "b749a359bf4c4f958551b272e1fb56d1-9cacb3c7519524f6-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=b749a359bf4c4f958551b272e1fb56d1,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

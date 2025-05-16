@@ -558,6 +558,18 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "mundo-pixar-esta-de-volta-em-sao-paulo",
+                    "headline": "Mundo Pixar est\u00e1 de volta em S\u00e3o Paulo",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/mp_2_1ac98343.png?region=144%2C169%2C779%2C312",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/mundo_pixar_72a3b3fd.jpeg?region=0%2C0%2C1920%2C1080",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/mp_2_1ac98343.png?region=0%2C98%2C1079%2C1079"
+                    },
+                    "categoryPrimary": "NOT\u00cdCIA",
+                    "altText": "Mundo Pixar est\u00e1 de volta em S\u00e3o Paulo",
+                    "contentDate": "2025-05-15T12:58:45-07:00"
+                },
+                {
                     "slug": "voce_e_sua_familia_no_lugar_mais_magico_da_terra",
                     "headline": "Voc\u00ea e sua fam\u00edlia no lugar mais m\u00e1gico do mundo!",
                     "images": {
@@ -647,22 +659,9 @@
                     "categorySecondary": "M\u00fasica",
                     "altText": "Anitta vai cantar no primeiro jogo da NFL no Brasil",
                     "contentDate": "2024-08-23T16:40:02-07:00"
-                },
-                {
-                    "slug": "lady-gaga-e-bruno-mars-juntos-pela-primeira-vez",
-                    "headline": "Lady Gaga e Bruno Mars juntos pela primeira vez!",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/picture1_ec6a05f8.jpeg?region=0%2C6%2C523%2C210",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/picture1_ec6a05f8.jpeg?region=0%2C0%2C523%2C295",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/picture1_ec6a05f8.jpeg?region=75%2C0%2C349%2C349"
-                    },
-                    "categoryPrimary": "Novidades",
-                    "categorySecondary": "M\u00fasica",
-                    "altText": "Lady Gaga e Bruno Mars juntos pela primeira vez!",
-                    "contentDate": "2024-08-22T12:31:11-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjJUMTI6MzE6MTEtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTEFEWS1HQUdBLUUtQlJVTk8tTUFSUy1KVU5UT1MtUEVMQS1QUklNRUlSQS1WRVoifX0=",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjNUMTY6NDA6MDItMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQU5JVFRBLVZBSS1DQU5UQVItTk8tUFJJTUVJUk8tSk9HTy1EQS1ORkwtTk8tQlJBU0lMIn19",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -785,8 +784,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "6dea64dcb5d64fd187cc0c4243a2b29b-92a2d67ed56f6307-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=6dea64dcb5d64fd187cc0c4243a2b29b,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "db43006368004c60994dc6ee1caddccf-aca38e5f414ed177-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=wPNdT5UyCbe3xdCtFj1KJ,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=db43006368004c60994dc6ee1caddccf,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
