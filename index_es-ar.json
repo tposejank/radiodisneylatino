@@ -1025,6 +1025,12 @@
             "youtubeEmbed": [
                 {
                     "width": "1280",
+                    "video": "Joeb5vsftpQ",
+                    "thumbnailQuality": "maxresdefault",
+                    "height": "720"
+                },
+                {
+                    "width": "1280",
                     "video": "KuG-WjzBqJ0",
                     "thumbnailQuality": "maxresdefault",
                     "height": "720"
@@ -1136,16 +1142,10 @@
                     "video": "O8wgvjSEF_M",
                     "thumbnailQuality": "maxresdefault",
                     "height": "720"
-                },
-                {
-                    "width": "1280",
-                    "video": "Rv7MlZ190Tk",
-                    "thumbnailQuality": "maxresdefault",
-                    "height": "720"
                 }
             ],
-            "_sentryTraceData": "ab031782823b401bbd95fc519435b35d-a4d3a9797d860bd4-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=ab031782823b401bbd95fc519435b35d,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "6faed96f3f294beba6585334d1c54394-9c6c405c2b46e95e-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=6faed96f3f294beba6585334d1c54394,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
