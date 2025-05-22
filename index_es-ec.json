@@ -1231,14 +1231,14 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "83f36133184340c1aca8499393a47764-bc412a76ce92750c-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=KhaPEwuv-6eguq-H_wEBL,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=83f36133184340c1aca8499393a47764,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "44b9972a1106434ea7e956d8bd97bf19-90c39d169b10a0f9-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=44b9972a1106434ea7e956d8bd97bf19,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
     "page": "/",
     "query": {},
-    "buildId": "KhaPEwuv-6eguq-H_wEBL",
+    "buildId": "K33ZOAWDQgrMJtpdUAwSp",
     "runtimeConfig": {},
     "isFallback": false,
     "gssp": true,
