@@ -558,6 +558,19 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "ze_neto_e_cristiano_liberam_sua_magia_das_estrelas",
+                    "headline": "Z\u00e9 Neto & Cristiano liberam sua \u201cMagia das Estrelas\u201d",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/maxresdefault_1_b68edbc2.jpeg?region=1%2C81%2C1279%2C511",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/maxresdefault_1_b68edbc2.jpeg?region=0%2C0%2C1279%2C720",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/maxresdefault_1_b68edbc2.jpeg?region=284%2C0%2C720%2C720"
+                    },
+                    "categoryPrimary": "NOT\u00cdCIA",
+                    "categorySecondary": "M\u00daSICA",
+                    "altText": "Z\u00e9 Neto & Cristiano liberam sua \u201cMagia das Estrelas\u201d",
+                    "contentDate": "2025-05-23T09:00:00-07:00"
+                },
+                {
                     "slug": "dulce_maria_lanca_parceria_com_marilia_mendonca",
                     "headline": "Dulce Maria lan\u00e7a parceria com Mar\u00edlia Mendon\u00e7a!",
                     "images": {
@@ -644,22 +657,9 @@
                     "categorySecondary": "M\u00fasica",
                     "altText": "Not\u00edcias de pop e rock internacional: recorde pro Coldplay e despedida pro Aerosmith",
                     "contentDate": "2024-08-28T11:28:35-07:00"
-                },
-                {
-                    "slug": "daqui-pra-sempre-manu-bahtidao-mais-ouvida-youtube",
-                    "headline": "\u201cDaqui pra Sempre\u201d, da Manu Bahtid\u00e3o, \u00e9 a mais ouvida no YouTube",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/picture1_fd6b4038.jpeg?region=1%2C24%2C639%2C256",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/picture1_fd6b4038.jpeg?region=1%2C13%2C639%2C359",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/picture1_fd6b4038.jpeg?region=100%2C0%2C440%2C440"
-                    },
-                    "categoryPrimary": "Novidades",
-                    "categorySecondary": "M\u00fasica",
-                    "altText": "\u201cDaqui pra Sempre\u201d, da Manu Bahtid\u00e3o, \u00e9 a mais ouvida no YouTube",
-                    "contentDate": "2024-08-28T11:23:09-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjhUMTE6MjM6MDktMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjREFRVUktUFJBLVNFTVBSRS1NQU5VLUJBSFRJREFPLU1BSVMtT1VWSURBLVlPVVRVQkUifX0=",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjhUMTE6Mjg6MzUtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTk9USUNJQVMtUE9QLVJPQ0stSU5URVJOQUNJT05BTC1SRUNPUkRFLUNPTERQTEFZLURFU1BFRElEQS1BRVJPU01JVEgifX0=",
             "youtubeEmbed": [
                 {
                     "width": "120",
@@ -782,8 +782,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "d1513805df104ed4b22b3134246dbb6c-920b329eafb0624f-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=dkUPl1z6g1eVC8pE8DXo_,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=d1513805df104ed4b22b3134246dbb6c,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "468ca051b960462a9625eed217052573-b6609793d208af1b-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=dkUPl1z6g1eVC8pE8DXo_,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=468ca051b960462a9625eed217052573,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
