@@ -571,6 +571,19 @@
                     "contentDate": "2025-05-23T09:00:00-07:00"
                 },
                 {
+                    "slug": "novidades_disney_trailer_de_zootopia_2_e_da_nova_temporada_de_o_urso",
+                    "headline": "Novidades Disney: trailer de \u201cZootopia 2\u201d e da nova temporada de \u201cO Urso\u201d",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/maxresdefault_403bc974.jpeg?region=1%2C24%2C1279%2C511",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/maxresdefault_403bc974.jpeg?region=0%2C0%2C1280%2C720",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/maxresdefault_403bc974.jpeg?region=280%2C0%2C720%2C720"
+                    },
+                    "categoryPrimary": "NOT\u00cdCIA",
+                    "categorySecondary": "DISNEY",
+                    "altText": "Novidades Disney: trailer de \u201cZootopia 2\u201d e da nova temporada de \u201cO Urso\u201d",
+                    "contentDate": "2025-05-23T08:00:00-07:00"
+                },
+                {
                     "slug": "dulce_maria_lanca_parceria_com_marilia_mendonca",
                     "headline": "Dulce Maria lan\u00e7a parceria com Mar\u00edlia Mendon\u00e7a!",
                     "images": {
@@ -644,22 +657,9 @@
                     "categorySecondary": "Disney+",
                     "altText": "\u201cO Som e a S\u00edlaba\u201d \u00e9 a nova s\u00e9rie nacional do Disney+",
                     "contentDate": "2024-08-28T11:31:42-07:00"
-                },
-                {
-                    "slug": "noticias-pop-rock-internacional-recorde-coldplay-despedida-aerosmith",
-                    "headline": "Not\u00edcias de pop e rock internacional: recorde pro Coldplay e despedida pro Aerosmith",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/picture1_42b09720.jpeg?region=1%2C0%2C1047%2C420",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/picture1_42b09720.jpeg?region=0%2C0%2C1048%2C590",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/picture1_42b09720.jpeg?region=157%2C0%2C589%2C590"
-                    },
-                    "categoryPrimary": "Novidades",
-                    "categorySecondary": "M\u00fasica",
-                    "altText": "Not\u00edcias de pop e rock internacional: recorde pro Coldplay e despedida pro Aerosmith",
-                    "contentDate": "2024-08-28T11:28:35-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjhUMTE6Mjg6MzUtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTk9USUNJQVMtUE9QLVJPQ0stSU5URVJOQUNJT05BTC1SRUNPUkRFLUNPTERQTEFZLURFU1BFRElEQS1BRVJPU01JVEgifX0=",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQlJBIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JSQSJ9LCJHU0kxU0siOnsiUyI6IjIwMjQtMDgtMjhUMTE6MzE6NDItMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTy1TT00tRS1BLVNJTEFCQS1OT1ZBLVNFUklFLU5BQ0lPTkFMLURJU05FWS1QTFVTIn19",
             "youtubeEmbed": [
                 {
                     "width": "120",
@@ -782,8 +782,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "468ca051b960462a9625eed217052573-b6609793d208af1b-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=dkUPl1z6g1eVC8pE8DXo_,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=468ca051b960462a9625eed217052573,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "4f7f04d1515244e39d88c4f03b56bd43-9ef46521f044df47-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=dkUPl1z6g1eVC8pE8DXo_,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=4f7f04d1515244e39d88c4f03b56bd43,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
