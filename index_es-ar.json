@@ -5,64 +5,6 @@
                 "AR": {
                     "banners": [
                         {
-                            "type": "ArticlePage",
-                            "id": "63364298ea35724f0491cfac",
-                            "title": "Nuevo Estudio Radio Disney: Emanero llega a tu radio con m\u00fasica, sorpresas y un encuentro \u00fanico",
-                            "description": "Antes de sus shows en el Movistar Arena,el artista se presenta en vivo en los estudios de Radio Disney con un show \u00edntimo, exclusivo y lleno de sorpresas.",
-                            "created_at": "2025-04-22T13:53:46-07:00",
-                            "updated_at": "2025-04-28T15:45:32-07:00",
-                            "page_status": "Live",
-                            "suppress_social": false,
-                            "content_date": "2025-04-18T11:18:00-07:00",
-                            "author_type": "display_linkable_author_page",
-                            "authors": [],
-                            "author_by_line": "",
-                            "category_labels": {
-                                "primary": "ESTUDIO",
-                                "secondary": "RADIO DISNEY"
-                            },
-                            "text_content": {
-                                "headline": "<p><span>Nuevo Estudio Radio Disney: Emanero llega a tu radio con m\u00fasica, sorpresas y un encuentro \u00fanico</span></p>",
-                                "summary": "<p><span>Antes de sus shows en el Movistar Arena,el artista se presenta en vivo en los estudios de Radio Disney con un show \u00edntimo, exclusivo y lleno de sorpresas.</span></p>",
-                                "main_content": "<p style=\"text-align: justify;\"><span>Este 30 de abril llega un </span><b><strong>Estudio Radio Disney</strong></b><span> lleno de emoci\u00f3n y m\u00fasica junto a uno de los artistas m\u00e1s queridos del momento. </span><b><strong>Emanero </strong></b><span>vuelve a encontrarse con su p\u00fablico de una manera muy especial para ser protagonista de un nuevo Estudio Radio Disney, en el que compartir\u00e1 su m\u00fasica en vivo, charlas \u00edntimas, sorpresas y toda la calidez que lo caracteriza.</span></p><p style=\"text-align: justify;\"><span>En la previa de sus shows en el Movistar Arena \u2014que tendr\u00e1n lugar el 9 y 10 de junio\u2014, el artista se tomar\u00e1 una tiempo para conectar de cerca con sus fans en una tarde inolvidable.</span></p><p style=\"text-align: justify;\"><span>\u00bfQuer\u00e9s estar ah\u00ed? Escuch\u00e1 Radio Disney y segu\u00ed nuestras redes sociales para enterarte c\u00f3mo participar. Los ganadores vivir\u00e1n una experiencia \u00fanica a pura m\u00fasica, emoci\u00f3n y buena onda.</span></p><p style=\"text-align: justify;\"><span>Adem\u00e1s, si no pod\u00e9s estar presente, vas a poder seguir todo lo que pase en el Estudio Radio Disney con Emanero a trav\u00e9s de nuestro canal de YouTube: @radiodisneyar.</span></p><p style=\"text-align: justify;\"><span>\u00a1No te lo pierdas!</span></p><p></p><div class=\"mh-youtube mh-youtube-responsive\"><iframe src=\"https://www.youtube.com/embed/m7KiI1tR5eY\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"true\"></iframe></div><p></p><p><br></p><p><br></p>"
-                            },
-                            "image_assets": {
-                                "featured_image": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=0%2C65%2C1537%2C613",
-                                "featured_image_https": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=0%2C65%2C1537%2C613",
-                                "featured_image_16x9": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=0%2C0%2C1536%2C864",
-                                "featured_image_16x9_https": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=0%2C0%2C1536%2C864",
-                                "featured_image_1x1": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=336%2C0%2C864%2C864",
-                                "featured_image_1x1_https": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=336%2C0%2C864%2C864"
-                            },
-                            "inc_tags": [
-                                {
-                                    "type": "inc_tag",
-                                    "id": "59c467bf5388ccd61357f616",
-                                    "title": "Geolocalizado ARGENTINA",
-                                    "description": "",
-                                    "created_at": "2020-01-16T11:03:44-08:00",
-                                    "updated_at": "2020-01-16T11:05:12-08:00"
-                                },
-                                {
-                                    "type": "inc_tag",
-                                    "id": "61fb990c07c88437cbf24a70",
-                                    "title": "env-prod",
-                                    "description": null,
-                                    "created_at": "2024-08-15T07:21:58-07:00",
-                                    "updated_at": "2024-08-15T07:21:58-07:00"
-                                }
-                            ],
-                            "suppress_featured_image": false,
-                            "display_copy_article": false,
-                            "alt_text_data": {
-                                "alt_text_thumb": ""
-                            },
-                            "content_path": "/nota/estudio_radio_disney_emanero",
-                            "content_url": "https://radiodisney.disneylatino.com/nota/estudio_radio_disney_emanero",
-                            "url": "https://radiodisney.disneylatino.com/nota/estudio_radio_disney_emanero",
-                            "primary_image_url": "https://lumiere-a.akamaihd.net/v1/images/emanero_wrd_4a06aa54.jpeg?region=336%2C0%2C864%2C864"
-                        },
-                        {
                             "type": "FlexContentHero",
                             "id": "62e975425da3ede2142e0d19",
                             "title": "Radio Disney | Artistas | AR",
@@ -274,56 +216,6 @@
                                     "desktop_direction": "180deg"
                                 }
                             }
-                        },
-                        {
-                            "type": "ArticlePage",
-                            "id": "633d7d2f10b86df82ec8f782",
-                            "title": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
-                            "description": "El creador de \u201cBeautiful Things\u201d sorprende con un nuevo lanzamiento y calienta motores para su pr\u00f3ximo \u00e1lbum American Heart.",
-                            "created_at": "2025-04-28T07:58:39-07:00",
-                            "updated_at": "2025-04-28T07:58:39-07:00",
-                            "page_status": "Live",
-                            "suppress_social": false,
-                            "content_date": "2025-04-25T14:11:00-07:00",
-                            "author_type": "display_linkable_author_page",
-                            "authors": [],
-                            "author_by_line": "",
-                            "category_labels": {
-                                "primary": "NOVEDADES",
-                                "secondary": "M\u00daSICA"
-                            },
-                            "text_content": {
-                                "headline": "<p><span>Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico</span></p>",
-                                "summary": "<p><span>El creador de \u201cBeautiful Things\u201d sorprende con un nuevo lanzamiento y calienta motores para su pr\u00f3ximo \u00e1lbum American Heart.</span></p>",
-                                "main_content": "<p style=\"text-align: justify;\"><b><strong>Benson Boone</strong></b><span> lanz\u00f3 \u201cMystical Magical\u201d, un nuevo himno pop que estren\u00f3 en vivo durante su impactante presentaci\u00f3n en Coachella. El tema es el segundo adelanto de su pr\u00f3ximo disco, American Heart, que llegar\u00e1 el 20 de junio.</span></p><p style=\"text-align: justify;\"><span>El debut en Coachella no pas\u00f3 desapercibido: adem\u00e1s de presentar su nueva canci\u00f3n, Benson sorprendi\u00f3 al invitar a Brian May de Queen para una emotiva versi\u00f3n de \u201cBohemian Rhapsody\u201d, generando furor en redes y millones de vistas.</span></p><p style=\"text-align: justify;\"><span>\u201cMystical Magical\u201d sigue al \u00e9xito de su single anterior, \u201cSorry I\u2019m Here For Someone Else\u201d, que ya se meti\u00f3 entre los m\u00e1s escuchados de tu radio. Todo esto tras un a\u00f1o imparable para Boone, gracias al fen\u00f3meno global de \u201cBeautiful Things\u201d, que rompi\u00f3 r\u00e9cords de reproducciones y premios.</span></p><p style=\"text-align: justify;\"><span>Antes del lanzamiento de American Heart, Benson tendr\u00e1 otra gran cita: su debut como invitado musical en Saturday Night Live, el pr\u00f3ximo 3 de mayo. Sin dudas, 2025 ser\u00e1 otro a\u00f1o m\u00e1gico para \u00e9l.</span></p><p><span>Conoce m\u00e1s sobre este estreno y las \u00faltimas novedades destacadas en el podcast </span><a href=\"https://ar.radiodisney.com/podcasts\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Nueva M\u00fasica</span></a><span> que se publica cada viernes. </span></p><p><br></p>"
-                            },
-                            "image_assets": {
-                                "featured_image": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C59%2C1537%2C613",
-                                "featured_image_https": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C59%2C1537%2C613",
-                                "featured_image_16x9": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C0%2C1536%2C864",
-                                "featured_image_16x9_https": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C0%2C1536%2C864",
-                                "featured_image_1x1": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=336%2C0%2C864%2C864",
-                                "featured_image_1x1_https": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=336%2C0%2C864%2C864"
-                            },
-                            "inc_tags": [
-                                {
-                                    "type": "inc_tag",
-                                    "id": "61fb990c07c88437cbf24a70",
-                                    "title": "env-prod",
-                                    "description": null,
-                                    "created_at": "2024-08-15T07:21:58-07:00",
-                                    "updated_at": "2024-08-15T07:21:58-07:00"
-                                }
-                            ],
-                            "suppress_featured_image": false,
-                            "display_copy_article": false,
-                            "alt_text_data": {
-                                "alt_text_thumb": ""
-                            },
-                            "content_path": "/nota/benson_boone_lanzo_mystical_magical",
-                            "content_url": "https://radiodisney.disneylatino.com/nota/benson_boone_lanzo_mystical_magical",
-                            "url": "https://radiodisney.disneylatino.com/nota/benson_boone_lanzo_mystical_magical",
-                            "primary_image_url": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=336%2C0%2C864%2C864"
                         },
                         {
                             "type": "FlexContentHero",
@@ -540,33 +432,33 @@
                         },
                         {
                             "type": "ArticlePage",
-                            "id": "633ef1e0ea984db5e174b277",
-                            "title": "Premios Gardel 2025: se anunciaron los nominados y hay sorpresas",
-                            "description": "El pop urbano, el trap y las colaboraciones dominan las categor\u00edas principales. Milo J, Mar\u00eda Becerra y Nicki Nicole entre los favoritos. ",
-                            "created_at": "2025-04-29T11:42:33-07:00",
-                            "updated_at": "2025-04-29T11:42:33-07:00",
+                            "id": "633d7d2f10b86df82ec8f782",
+                            "title": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
+                            "description": "El creador de \u201cBeautiful Things\u201d sorprende con un nuevo lanzamiento y calienta motores para su pr\u00f3ximo \u00e1lbum American Heart.",
+                            "created_at": "2025-04-28T07:58:39-07:00",
+                            "updated_at": "2025-04-28T07:58:39-07:00",
                             "page_status": "Live",
                             "suppress_social": false,
-                            "content_date": "2025-04-24T14:38:00-07:00",
+                            "content_date": "2025-04-25T14:11:00-07:00",
                             "author_type": "display_linkable_author_page",
                             "authors": [],
                             "author_by_line": "",
                             "category_labels": {
                                 "primary": "NOVEDADES",
-                                "secondary": "PREMIOS GARDEL 2025"
+                                "secondary": "M\u00daSICA"
                             },
                             "text_content": {
-                                "headline": "<p><span>Premios Gardel 2025: se anunciaron los nominados y hay sorpresas</span></p>",
-                                "summary": "<p><span>El pop urbano, el trap y las colaboraciones dominan las categor\u00edas principales. Milo J, Mar\u00eda Becerra y Nicki Nicole entre los favoritos.</span></p>",
-                                "main_content": "<p style=\"text-align: justify;\"><span>Los </span><b><strong>Premios Gardel 2025</strong></b><span>, el reconocimiento m\u00e1s esperado de la m\u00fasica argentina, anunciaron sus nominados. En esta edici\u00f3n queda muy claro que la escena urbana sigue pisando fuerte, las colaboraciones no paran de crecer y los nuevos talentos llegan con mucha fuerza. La ceremonia se celebrar\u00e1 el mi\u00e9rcoles 28 de mayo, en lugar a anunciarse pr\u00f3ximamente.</span></p><p style=\"text-align: justify;\"><span>La categor\u00eda m\u00e1s codiciada, </span><b><strong>\u00c1lbum del A\u00f1o</strong></b><span>, tiene a pesos pesados de distintos mundos: Milo J con su introspectivo \u201c166\u201d, Dillom con \u201cPor ces\u00e1rea\u201d, el d\u00fao explosivo CA7RIEL &amp; Paco Amoroso con \u201cBa\u00f1o Mar\u00eda\u201d, el regreso discogr\u00e1fico de Charly Garc\u00eda con \u201cLa l\u00f3gica del escorpi\u00f3n\u201d y Trueno con \u201cEl \u00faltimo baile\u201d, que sigue afianzando su lugar entre los grandes.</span></p><p style=\"text-align: justify;\"><span>Pero si de hits se trata, la categor\u00eda </span><b><strong>Canci\u00f3n del A\u00f1o</strong></b><span> parece un festival en s\u00ed misma. Est\u00e1n desde los infaltables Bizarrap y Luck Ra con la Bzrp Music Session 61, hasta Mar\u00eda Becerra con \u201cIM\u00c1N (Two of Us)\u201d, Nicki Nicole con la \u00edntima \u201cOjos verdes\u201d, Lali con \u201cFan\u00e1tico\u201d, Dillom con \u201cCirug\u00eda\u201d, Airbag con \u201cVerte de cerca\u201d y Trueno otra vez, ahora con \u201cReal gangsta love\u201d. Tambi\u00e9n aparecen Yami Safdie y Lasso con \u201cEn otra vida\u201d, Luciano Pereyra con \u201cMi primer amor\u201d y Milo J con \u201c3 pecados despu\u00e9s\u201d.</span></p><p style=\"text-align: justify;\"><span>A medida que se acerque la fecha, se anunciar\u00e1n los detalles sobre la gala de entrega que se realizar\u00e1 el 28 de mayo.</span></p><p style=\"text-align: justify;\"><span>Esta es una lista con algunas categor\u00edas destacadas:</span></p><h3><span>\ud83c\udfc6 \u00c1lbum del A\u00f1o</span></h3><ul><li value=\"1\"><b><strong>166</strong></b><span> \u2013 Milo J</span></li><li value=\"2\"><b><strong>Por ces\u00e1rea</strong></b><span> \u2013 Dillom</span></li><li value=\"3\"><b><strong>Ba\u00f1o Mar\u00eda</strong></b><span> \u2013 CA7RIEL &amp; Paco Amoroso</span></li><li value=\"4\"><b><strong>La l\u00f3gica del escorpi\u00f3n</strong></b><span> \u2013 Charly Garc\u00eda</span></li><li value=\"5\"><b><strong>El \u00faltimo baile</strong></b><span> \u2013 Trueno</span></li></ul><hr data-end=\"665\" data-start=\"662\"><h3><span>\ud83c\udfb5 Canci\u00f3n del A\u00f1o</span></h3><ul><li value=\"1\"><span>\u201cIMAN (Two Of Us)\u201d \u2013 Mar\u00eda Becerra</span></li><li value=\"2\"><span>\u201cOjos verdes\u201d \u2013 Nicki Nicole</span></li><li value=\"3\"><span>\u201cHola perdida\u201d \u2013 Luck Ra y KHEA</span></li><li value=\"4\"><span>\u201cLuck Ra: Bzrp Music Sessions Vol. 61\u201d \u2013 Bizarrap y Luck Ra</span></li><li value=\"5\"><span>\u201c3 pecados despu\u00e9s\u201d \u2013 Milo J</span></li><li value=\"6\"><span>\u201cFan\u00e1tico\u201d \u2013 Lali</span></li><li value=\"7\"><span>\u201cCirug\u00eda\u201d \u2013 Dillom</span></li><li value=\"8\"><span>\u201cVerte de cerca\u201d \u2013 Airbag</span></li><li value=\"9\"><span>\u201cReal gangsta love\u201d \u2013 Trueno</span></li><li value=\"10\"><span>\u201cEn otra vida\u201d \u2013 Yami Safdie y Lasso</span></li><li value=\"11\"><span>\u201cMi primer amor\u201d \u2013 Luciano Pereyra</span></li></ul><hr data-end=\"1087\" data-start=\"1084\"><h3><span>\ud83c\udf9a\ufe0f Grabaci\u00f3n del A\u00f1o</span></h3><ul><li value=\"1\"><span>\u201cOjos verdes\u201d \u2013 Nicki Nicole</span></li><li value=\"2\"><span>\u201cReal gangsta love\u201d \u2013 Trueno</span></li><li value=\"3\"><span>\u201cLuck Ra: Bzrp Music Sessions Vol. 61\u201d \u2013 Bizarrap y Luck Ra</span></li><li value=\"4\"><span>\u201cArruinarse\u201d \u2013 Tan Bi\u00f3nica ft. Airbag</span></li></ul><hr data-end=\"1291\" data-start=\"1288\"><h3><span>\ud83c\udf1f Mejor Nuevo Artista</span></h3><ul><li value=\"1\"><span>Dum Chica</span></li><li value=\"2\"><span>Juana Rozas</span></li><li value=\"3\"><span>Olivia Wald</span></li><li value=\"4\"><span>Margarita</span></li><li value=\"5\"><span>K4OS</span></li></ul><hr data-end=\"1584\" data-start=\"1581\"><h3><span>\ud83d\udc65 Mejor Colaboraci\u00f3n</span></h3><ul><li value=\"1\"><span>\u201cArruinarse\u201d \u2013 Tan Bionica ft. Airbag</span></li><li value=\"2\"><span>\u201cEn Otra Vida\u201d \u2013 Yami Safdie y Lasso</span></li><li value=\"3\"><span>\u201cLuck Ra: Bzrp Music Sessions Vol. 61\u201d \u2013 Bizarrap, Luck Ra</span></li><li value=\"4\"><span>\u201cAGUA\u201d \u2013 CA7RIEL &amp; Paco Amoroso, TINI</span></li><li value=\"5\"><span>\u201cEs ahora\u201d \u2013 Abel Pintos &amp; Luciano Pereyra</span></li><li value=\"6\"><span>\u201cHola perdida\u201d \u2013 Luck Ra, KHEA</span></li><li value=\"7\"><span>\u201cAh\u00ed ah\u00ed (Remix)\u201d \u2013 El Negro Tecla, DJ Tao, Pablo Lescano, L-Gante, La T y La M</span></li></ul><hr data-end=\"1970\" data-start=\"1967\"><h3><span>\ud83d\udcbd Productor del A\u00f1o</span></h3><ul><li value=\"1\"><span>Gustavo Santaolalla</span></li><li value=\"2\"><span>Nico Cotton</span></li><li value=\"3\"><span>Bizarrap</span></li><li value=\"4\"><span>Gonzalo Moreno Charpentier (BAMBI)</span></li></ul><hr data-end=\"2093\" data-start=\"2090\"><h3><span>\ud83c\udfac Mejor Videoclip Corto</span></h3><ul><li value=\"1\"><span>\u201cPa\u201d \u2013 Dir. B\u00e0rbara Farr\u00e9</span></li><li value=\"2\"><span>\u201cFan\u00e1tico\u201d \u2013 Dir. Lautaro Esp\u00f3sito y Lali</span></li><li value=\"3\"><span>\u201cArruinarse (En Vivo En River Plate)\u201d \u2013 Dir. Andrea Ussher</span></li><li value=\"4\"><span>\u201cMVP\u201d \u2013 Dir. Agust\u00edn Portela</span></li></ul>"
+                                "headline": "<p><span>Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico</span></p>",
+                                "summary": "<p><span>El creador de \u201cBeautiful Things\u201d sorprende con un nuevo lanzamiento y calienta motores para su pr\u00f3ximo \u00e1lbum American Heart.</span></p>",
+                                "main_content": "<p style=\"text-align: justify;\"><b><strong>Benson Boone</strong></b><span> lanz\u00f3 \u201cMystical Magical\u201d, un nuevo himno pop que estren\u00f3 en vivo durante su impactante presentaci\u00f3n en Coachella. El tema es el segundo adelanto de su pr\u00f3ximo disco, American Heart, que llegar\u00e1 el 20 de junio.</span></p><p style=\"text-align: justify;\"><span>El debut en Coachella no pas\u00f3 desapercibido: adem\u00e1s de presentar su nueva canci\u00f3n, Benson sorprendi\u00f3 al invitar a Brian May de Queen para una emotiva versi\u00f3n de \u201cBohemian Rhapsody\u201d, generando furor en redes y millones de vistas.</span></p><p style=\"text-align: justify;\"><span>\u201cMystical Magical\u201d sigue al \u00e9xito de su single anterior, \u201cSorry I\u2019m Here For Someone Else\u201d, que ya se meti\u00f3 entre los m\u00e1s escuchados de tu radio. Todo esto tras un a\u00f1o imparable para Boone, gracias al fen\u00f3meno global de \u201cBeautiful Things\u201d, que rompi\u00f3 r\u00e9cords de reproducciones y premios.</span></p><p style=\"text-align: justify;\"><span>Antes del lanzamiento de American Heart, Benson tendr\u00e1 otra gran cita: su debut como invitado musical en Saturday Night Live, el pr\u00f3ximo 3 de mayo. Sin dudas, 2025 ser\u00e1 otro a\u00f1o m\u00e1gico para \u00e9l.</span></p><p><span>Conoce m\u00e1s sobre este estreno y las \u00faltimas novedades destacadas en el podcast </span><a href=\"https://ar.radiodisney.com/podcasts\" target=\"_blank\" rel=\"noopener noreferrer\"><span>Nueva M\u00fasica</span></a><span> que se publica cada viernes. </span></p><p><br></p>"
                             },
                             "image_assets": {
-                                "featured_image": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C57%2C1421%2C567",
-                                "featured_image_https": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C57%2C1421%2C567",
-                                "featured_image_16x9": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C1%2C1420%2C798",
-                                "featured_image_16x9_https": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C1%2C1420%2C798",
-                                "featured_image_1x1": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=572%2C1%2C800%2C799",
-                                "featured_image_1x1_https": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=572%2C1%2C800%2C799"
+                                "featured_image": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C59%2C1537%2C613",
+                                "featured_image_https": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C59%2C1537%2C613",
+                                "featured_image_16x9": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C0%2C1536%2C864",
+                                "featured_image_16x9_https": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=0%2C0%2C1536%2C864",
+                                "featured_image_1x1": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=336%2C0%2C864%2C864",
+                                "featured_image_1x1_https": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=336%2C0%2C864%2C864"
                             },
                             "inc_tags": [
                                 {
@@ -583,10 +475,10 @@
                             "alt_text_data": {
                                 "alt_text_thumb": ""
                             },
-                            "content_path": "/nota/nominados_gardel_2025",
-                            "content_url": "https://radiodisney.disneylatino.com/nota/nominados_gardel_2025",
-                            "url": "https://radiodisney.disneylatino.com/nota/nominados_gardel_2025",
-                            "primary_image_url": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=572%2C1%2C800%2C799"
+                            "content_path": "/nota/benson_boone_lanzo_mystical_magical",
+                            "content_url": "https://radiodisney.disneylatino.com/nota/benson_boone_lanzo_mystical_magical",
+                            "url": "https://radiodisney.disneylatino.com/nota/benson_boone_lanzo_mystical_magical",
+                            "primary_image_url": "https://lumiere-a.akamaihd.net/v1/images/benson2025_wrd_be22baca.jpeg?region=336%2C0%2C864%2C864"
                         }
                     ]
                 }
@@ -1144,8 +1036,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "825607e2eba04dfaba9c27770bc4924a-83eec3d99fd78c60-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=825607e2eba04dfaba9c27770bc4924a,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "dc583de61db94cb3b441b1676de1fb99-8a3bec94505ca368-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=dc583de61db94cb3b441b1676de1fb99,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
