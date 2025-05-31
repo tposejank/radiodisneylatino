@@ -917,6 +917,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "30/05 | Miley Cyrus , Carlos Rivera, Aitana, Reik y m\u00e1s!",
+                        "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/db651383-7c0e-4a09-895d-4b3179a730c0/3000x3000/img-0751.jpg?aid=rss_feed",
+                        "podcastTitle": "Nueva M\u00fasica",
+                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
+                        "duration": 483,
+                        "enclosure": {
+                            "length": "7742335",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/0b5c5353-c1c3-4ea4-aa09-2df783aaa21c/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=0b5c5353-c1c3-4ea4-aa09-2df783aaa21c&feed=65LZO9F1"
+                        },
+                        "id": "71011694-cee9-48d3-839a-efec704453e9",
+                        "publishedAt": "2025-05-30T21:31:00.000Z"
+                    },
+                    {
                         "title": "Semana del 26/5 al 1/6 de 2025",
                         "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/1f9f4c68-3fda-45c7-89c0-b22cd2afcab3/3000x3000/rnk-portada.jpg?aid=rss_feed",
                         "podcastTitle": "Ranking Latinoam\u00e9rica",
@@ -1041,25 +1055,11 @@
                         },
                         "id": "c3f78412-34d9-475a-b23c-b849cdb56e07",
                         "publishedAt": "2025-04-28T10:00:00.000Z"
-                    },
-                    {
-                        "title": "24/04 | Benson Boone, Elena Rose ft Camilo & Los \u00c1ngeles Azules, Lali, Juanes y m\u00e1s!",
-                        "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/5d3b0599-7779-49eb-9da1-3faa5cbfe5c0/3000x3000/img-9392.jpg?aid=rss_feed",
-                        "podcastTitle": "Nueva M\u00fasica",
-                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
-                        "duration": 536,
-                        "enclosure": {
-                            "length": "8579507",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/99c1ba3c-13e7-49ee-9f55-c8e5608da827/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=99c1ba3c-13e7-49ee-9f55-c8e5608da827&feed=65LZO9F1"
-                        },
-                        "id": "8d797d87-5435-4d72-bb9b-dc407d39e25b",
-                        "publishedAt": "2025-04-25T20:23:17.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 646
+                "totalCount": 647
             },
             "limit": 10,
             "items": [
@@ -1291,8 +1291,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "e4278febab244b9885aa69d3ea089dbe-ba5c3f63aac66240-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=e4278febab244b9885aa69d3ea089dbe,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "35cf612020004e0c81f4884d1e9ac811-bb7dd57838b7f118-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=35cf612020004e0c81f4884d1e9ac811,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
