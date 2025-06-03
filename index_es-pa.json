@@ -830,32 +830,46 @@
             "ranking": [
                 {
                     "position": 1,
+                    "artistName": "Elena Rose, \u00c1ngeles Azules & Camilo",
+                    "trackName": "Carteras Chinas"
+                },
+                {
+                    "position": 2,
                     "artistName": "Morat & Camilo",
                     "trackName": "Me Toca a Mi"
                 },
                 {
-                    "position": 2,
-                    "artistName": "j-hope",
-                    "trackName": "Mona Lisa"
-                },
-                {
                     "position": 3,
-                    "artistName": "Prince Royce",
-                    "trackName": "How Deep Is Your Love"
+                    "artistName": "Carlos Rivera",
+                    "trackName": "Qu\u00e9 Significa el Amor"
                 },
                 {
                     "position": 4,
-                    "artistName": "Bad Bunny",
-                    "trackName": "Turista"
+                    "artistName": "Benson Boone",
+                    "trackName": "Mystical Magica"
                 },
                 {
                     "position": 5,
-                    "artistName": "Ed Sheeran",
-                    "trackName": "Azizam"
+                    "artistName": "Ros\u00e9",
+                    "trackName": "Number One Girl"
                 }
             ],
             "lastEpisodes": {
                 "items": [
+                    {
+                        "title": "Semana del 2/6 al 8/6 de 2025",
+                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/1f9f4c68-3fda-45c7-89c0-b22cd2afcab3/3000x3000/rnk-portada.jpg?aid=rss_feed",
+                        "podcastTitle": "Ranking Latinoam\u00e9rica",
+                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
+                        "duration": 491,
+                        "enclosure": {
+                            "length": "7868976",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/0abebfb1-5bcf-4fa4-9fb4-54a7e5e8bdff/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=0abebfb1-5bcf-4fa4-9fb4-54a7e5e8bdff&feed=BxoPp9d0"
+                        },
+                        "id": "9bbb0a98-b7e8-4cfd-8e98-0b9a2ea70adc",
+                        "publishedAt": "2025-06-02T10:00:00.000Z"
+                    },
                     {
                         "title": "30/05 | Miley Cyrus , Carlos Rivera, Aitana, Reik y m\u00e1s!",
                         "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/db651383-7c0e-4a09-895d-4b3179a730c0/3000x3000/img-0751.jpg?aid=rss_feed",
@@ -981,25 +995,11 @@
                         },
                         "id": "618eeffd-e647-40c2-be6e-5e411a2ca601",
                         "publishedAt": "2025-05-02T22:40:48.000Z"
-                    },
-                    {
-                        "title": "Semana del 28/4 al 4/5 de 2025",
-                        "imageUrl": "https://image.simplecastcdn.com/images/5580fc77-9cdf-4700-9cde-ebe228cafc5c/c64dc9b0-3d53-47e9-99b9-c0d9f9a4e80c/3000x3000/img-9394.jpg?aid=rss_feed",
-                        "podcastTitle": "Ranking Latinoam\u00e9rica",
-                        "podcastId": "65409374-b027-453f-857c-edd08654f7fe",
-                        "duration": 374,
-                        "enclosure": {
-                            "length": "5987324",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/65409374-b027-453f-857c-edd08654f7fe/episodes/5f8a78ab-947f-4c3d-881c-0f021ea8dadb/audio/128/default.mp3?aid=rss_feed&awCollectionId=65409374-b027-453f-857c-edd08654f7fe&awEpisodeId=5f8a78ab-947f-4c3d-881c-0f021ea8dadb&feed=BxoPp9d0"
-                        },
-                        "id": "c3f78412-34d9-475a-b23c-b849cdb56e07",
-                        "publishedAt": "2025-04-28T10:00:00.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 647
+                "totalCount": 648
             },
             "limit": 10,
             "items": [
@@ -1231,8 +1231,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "a74046cea2b54cc9acc2f094d97f5d7c-ad48bd453890b4c9-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=a74046cea2b54cc9acc2f094d97f5d7c,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "3beea466e220445fb1d256007e46ddef-bbadf7105ffb20ec-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=3beea466e220445fb1d256007e46ddef,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
