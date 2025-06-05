@@ -1004,6 +1004,18 @@
             "limit": 10,
             "items": [
                 {
+                    "slug": "airbag_hizo_historia_en_river_py",
+                    "headline": "Airbag hizo historia en River",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/airbag2025_wrd_7bc4da42.jpeg?region=0%2C125%2C1536%2C614",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/airbag2025_wrd_7bc4da42.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/airbag2025_wrd_7bc4da42.jpeg?region=336%2C0%2C864%2C864"
+                    },
+                    "categoryPrimary": "SHOWS",
+                    "altText": "Airbag hizo historia en River",
+                    "contentDate": "2025-06-02T06:16:00-07:00"
+                },
+                {
                     "slug": "morat_cancion_a_cancion",
                     "headline": "Morat revela, canci\u00f3n a canci\u00f3n, los secretos de su nuevo \u00e1lbum \u201cYa es ma\u00f1ana\u201d",
                     "images": {
@@ -1093,22 +1105,9 @@
                     "categorySecondary": "ARTISTAS",
                     "altText": "\u00a1Houston, tenemos setlist! Katy Perry anunci\u00f3 las canciones de su gira \u00a1desde el espacio!",
                     "contentDate": "2025-04-15T13:11:00-07:00"
-                },
-                {
-                    "slug": "prince_royce_estrena_nuevo_single",
-                    "headline": "Prince Royce estrena un nuevo single: \u201cHow Deep Is Your Love\u201d",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=0%2C11%2C568%2C227",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=0%2C10%2C568%2C320",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/prince-royce_02c86ebe.jpeg?region=91%2C0%2C340%2C339"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "M\u00daSICA",
-                    "altText": "Prince Royce estrena un nuevo single: \u201cHow Deep  Is Your Love\u201d",
-                    "contentDate": "2025-04-14T15:13:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjUFJZIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1BSWSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTRUMTU6MTM6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjUFJJTkNFX1JPWUNFX0VTVFJFTkFfTlVFVk9fU0lOR0xFIn19",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjUFJZIn0sIlNLIjp7IlMiOiJDT1VOVFJZI1BSWSJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTVUMTM6MTE6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjS0FUWV9QRVJSWV9BTlVOQ0lBX1NFVExJU1RfREVTREVfRUxfRVNQQUNJTyJ9fQ==",
             "youtubeEmbed": [
                 {
                     "width": "1280",
@@ -1231,8 +1230,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "5467c52b261c46a4b1a5248e797d1467-b6667219179b14c3-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=5467c52b261c46a4b1a5248e797d1467,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "a917d4e815fa44d3831bac611f90ce57-bfa6cc992bfeebd9-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=a917d4e815fa44d3831bac611f90ce57,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
