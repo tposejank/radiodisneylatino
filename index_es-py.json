@@ -1230,8 +1230,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "a917d4e815fa44d3831bac611f90ce57-bfa6cc992bfeebd9-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=a917d4e815fa44d3831bac611f90ce57,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "76892f0a28c041d09341345dcef097d5-88eaa1c57a79a400-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=76892f0a28c041d09341345dcef097d5,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
