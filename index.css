@@ -69,8 +69,9 @@ div.station-list {
 }
 
 div.station-controls {
-    background-color: white;
+    background-color: rgb(39, 39, 39);
     position: relative;
+    color: white;
 }
 
 .load-button {
@@ -99,7 +100,7 @@ div.station-info {
 }
 
 div.station-item:not(:last-child) {
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #4e4e4e;
 }
 
 div.station-info h2, h3 {
