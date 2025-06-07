@@ -662,6 +662,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "06/06 | Ed Sheeran, Teddy Swims, Elena Rose y m\u00e1s!",
+                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/63c2dfe1-301b-4e11-bd49-4c53a66fbe29/3000x3000/nueva-20musica-20ed-20sheeran-posteo-06.jpg?aid=rss_feed",
+                        "podcastTitle": "Nueva M\u00fasica",
+                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
+                        "duration": 475,
+                        "enclosure": {
+                            "length": "7602737",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/3e026f37-f2ae-423d-9ef9-8ecb529ee083/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=3e026f37-f2ae-423d-9ef9-8ecb529ee083&feed=65LZO9F1"
+                        },
+                        "id": "755381eb-1c9f-4839-8f69-c7b8c528876d",
+                        "publishedAt": "2025-06-06T19:53:14.000Z"
+                    },
+                    {
                         "title": "Semana del 2/6 al 8/6 de 2025",
                         "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/1f9f4c68-3fda-45c7-89c0-b22cd2afcab3/3000x3000/rnk-portada.jpg?aid=rss_feed",
                         "podcastTitle": "Ranking Latinoam\u00e9rica",
@@ -786,28 +800,27 @@
                         },
                         "id": "d7397e70-9daf-48cb-a18b-3df2414ea325",
                         "publishedAt": "2025-05-08T14:04:18.000Z"
-                    },
-                    {
-                        "title": "02/05 | Maroon 5 ft Lisa, Lali, Ed Sheeran y m\u00e1s!",
-                        "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/14dde457-bff0-474d-8d08-ecdb5c30f63c/3000x3000/img-9695.jpg?aid=rss_feed",
-                        "podcastTitle": "Nueva M\u00fasica",
-                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
-                        "duration": 381,
-                        "enclosure": {
-                            "length": "6106860",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/e1a1467e-50cb-499c-b5d7-09e1a4a31b8d/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=e1a1467e-50cb-499c-b5d7-09e1a4a31b8d&feed=65LZO9F1"
-                        },
-                        "id": "618eeffd-e647-40c2-be6e-5e411a2ca601",
-                        "publishedAt": "2025-05-02T22:40:48.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 648
+                "totalCount": 649
             },
             "limit": 10,
             "items": [
+                {
+                    "slug": "ya_estreno_la_sirenita_en_buenos_aires",
+                    "headline": "As\u00ed fue el esperado estreno de \u201cLa Sirenita\u201d en el teatro Gran Rex",
+                    "images": {
+                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/lasirenitaba_wrd_bfae00cf.jpeg?region=0%2C53%2C1537%2C613",
+                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/lasirenitaba_wrd_bfae00cf.jpeg?region=0%2C0%2C1536%2C864",
+                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/lasirenitaba_wrd_bfae00cf.jpeg?region=336%2C0%2C864%2C864"
+                    },
+                    "categoryPrimary": "CARTELERA",
+                    "categorySecondary": "ARGENTINA",
+                    "altText": "As\u00ed fue el esperado estreno de \u201cLa Sirenita\u201d en el teatro Gran Rex",
+                    "contentDate": "2025-06-06T07:14:00-07:00"
+                },
                 {
                     "slug": "airbag_hizo_historia_en_river",
                     "headline": "Airbag hizo historia en River",
@@ -897,23 +910,16 @@
                     "categorySecondary": "M\u00daSICA",
                     "altText": "Benson Boone lanza \u201cMystical Magical\u201d y anticipa un a\u00f1o \u00e9pico",
                     "contentDate": "2025-04-25T14:11:00-07:00"
-                },
-                {
-                    "slug": "nominados_gardel_2025",
-                    "headline": "Premios Gardel 2025: se anunciaron los nominados y hay sorpresas",
-                    "images": {
-                        "featuredImage": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C57%2C1421%2C567",
-                        "featuredImage16x9": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=0%2C1%2C1420%2C798",
-                        "featuredImage1x1": "https://lumiere-a.akamaihd.net/v1/images/gardel_2025_wrd_edac3cff.png?region=572%2C1%2C800%2C799"
-                    },
-                    "categoryPrimary": "NOVEDADES",
-                    "categorySecondary": "PREMIOS GARDEL 2025",
-                    "altText": "Premios Gardel 2025: se anunciaron los nominados y hay sorpresas",
-                    "contentDate": "2025-04-24T14:38:00-07:00"
                 }
             ],
-            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQVJHIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0FSRyJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMjRUMTQ6Mzg6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjTk9NSU5BRE9TX0dBUkRFTF8yMDI1In19",
+            "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQVJHIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0FSRyJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMjVUMTQ6MTE6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjQkVOU09OX0JPT05FX0xBTlpPX01ZU1RJQ0FMX01BR0lDQUwifX0=",
             "youtubeEmbed": [
+                {
+                    "width": "1280",
+                    "video": "-MVtgRLoPec",
+                    "thumbnailQuality": "maxresdefault",
+                    "height": "720"
+                },
                 {
                     "width": "1280",
                     "video": "Joeb5vsftpQ",
@@ -1027,16 +1033,10 @@
                     "video": "D6y_FmAA8WI",
                     "thumbnailQuality": "maxresdefault",
                     "height": "720"
-                },
-                {
-                    "width": "1280",
-                    "video": "O8wgvjSEF_M",
-                    "thumbnailQuality": "maxresdefault",
-                    "height": "720"
                 }
             ],
-            "_sentryTraceData": "4e072614b3524c62b7a3d7defd530841-b698bc13c5d89680-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=4e072614b3524c62b7a3d7defd530841,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "b5b4d956fd1d4804b57808521d5cdb88-bb04635dc955a3c3-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=b5b4d956fd1d4804b57808521d5cdb88,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },

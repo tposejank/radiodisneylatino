@@ -902,6 +902,20 @@
             "lastEpisodes": {
                 "items": [
                     {
+                        "title": "06/06 | Ed Sheeran, Teddy Swims, Elena Rose y m\u00e1s!",
+                        "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/63c2dfe1-301b-4e11-bd49-4c53a66fbe29/3000x3000/nueva-20musica-20ed-20sheeran-posteo-06.jpg?aid=rss_feed",
+                        "podcastTitle": "Nueva M\u00fasica",
+                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
+                        "duration": 475,
+                        "enclosure": {
+                            "length": "7602737",
+                            "type": "audio/mpeg",
+                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/3e026f37-f2ae-423d-9ef9-8ecb529ee083/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=3e026f37-f2ae-423d-9ef9-8ecb529ee083&feed=65LZO9F1"
+                        },
+                        "id": "755381eb-1c9f-4839-8f69-c7b8c528876d",
+                        "publishedAt": "2025-06-06T19:53:14.000Z"
+                    },
+                    {
                         "title": "Semana del 2/6 al 8/6 de 2025",
                         "imageUrl": "https://image.simplecastcdn.com/images/87bbd9af-acea-4e60-accf-bac7e685d036/1f9f4c68-3fda-45c7-89c0-b22cd2afcab3/3000x3000/rnk-portada.jpg?aid=rss_feed",
                         "podcastTitle": "Ranking Latinoam\u00e9rica",
@@ -1026,25 +1040,11 @@
                         },
                         "id": "d7397e70-9daf-48cb-a18b-3df2414ea325",
                         "publishedAt": "2025-05-08T14:04:18.000Z"
-                    },
-                    {
-                        "title": "02/05 | Maroon 5 ft Lisa, Lali, Ed Sheeran y m\u00e1s!",
-                        "imageUrl": "https://image.simplecastcdn.com/images/2a175726-b290-4927-a7f7-612f6c71ccf3/14dde457-bff0-474d-8d08-ecdb5c30f63c/3000x3000/img-9695.jpg?aid=rss_feed",
-                        "podcastTitle": "Nueva M\u00fasica",
-                        "podcastId": "9b3578c7-bd43-4992-938e-eef88130bfca",
-                        "duration": 381,
-                        "enclosure": {
-                            "length": "6106860",
-                            "type": "audio/mpeg",
-                            "url": "https://afp-922719-injected.calisto.simplecastaudio.com/9b3578c7-bd43-4992-938e-eef88130bfca/episodes/e1a1467e-50cb-499c-b5d7-09e1a4a31b8d/audio/128/default.mp3?aid=rss_feed&awCollectionId=9b3578c7-bd43-4992-938e-eef88130bfca&awEpisodeId=e1a1467e-50cb-499c-b5d7-09e1a4a31b8d&feed=65LZO9F1"
-                        },
-                        "id": "618eeffd-e647-40c2-be6e-5e411a2ca601",
-                        "publishedAt": "2025-05-02T22:40:48.000Z"
                     }
                 ],
                 "limit": 10,
                 "offset": 0,
-                "totalCount": 648
+                "totalCount": 649
             },
             "limit": 10,
             "items": [
@@ -1155,6 +1155,12 @@
             ],
             "initialToken": "eyJHU0kxUEsiOnsiUyI6IkFSVElDTEVTI0NPVU5UUlkjQk9MIn0sIlNLIjp7IlMiOiJDT1VOVFJZI0JPTCJ9LCJHU0kxU0siOnsiUyI6IjIwMjUtMDQtMTRUMTU6MTM6MDAtMDc6MDAifSwiUEsiOnsiUyI6IkFSVElDTEUjUFJJTkNFX1JPWUNFX0VTVFJFTkFfTlVFVk9fU0lOR0xFIn19",
             "youtubeEmbed": [
+                {
+                    "width": "1280",
+                    "video": "-MVtgRLoPec",
+                    "thumbnailQuality": "maxresdefault",
+                    "height": "720"
+                },
                 {
                     "width": "1280",
                     "video": "Joeb5vsftpQ",
@@ -1268,16 +1274,10 @@
                     "video": "D6y_FmAA8WI",
                     "thumbnailQuality": "maxresdefault",
                     "height": "720"
-                },
-                {
-                    "width": "1280",
-                    "video": "O8wgvjSEF_M",
-                    "thumbnailQuality": "maxresdefault",
-                    "height": "720"
                 }
             ],
-            "_sentryTraceData": "e158d3a805734cdea54d143a9db36211-a9bfa8e5061fa070-0",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=e158d3a805734cdea54d143a9db36211,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
+            "_sentryTraceData": "8692e3af029f49419d8142673d441bb0-85a779bee1c78ce2-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=8692e3af029f49419d8142673d441bb0,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
