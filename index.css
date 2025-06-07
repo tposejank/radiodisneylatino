@@ -30,16 +30,16 @@ div.header .header-page-name {
 }
 
 div.country-list {
-    width: 60px;
+    display: flex;
+    width: 100%;
     background-color: rgb(15 18 24);
-    height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
-div.country-list p {
+div.country-list a {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -47,14 +47,13 @@ div.country-list p {
     text-decoration: none;
 }
 
-div.country-list p:hover {
+div.country-list a:hover {
     background-color: rgb(25, 29, 37);
 }
 
-div.country-list p a {
+div.country-list a a {
     color: black;
     font-family: 'RDSans', Tahoma, Geneva, Verdana, sans-serif;
-    width: 100%;
     display: block;
     padding: 1rem;
     color: white;
@@ -70,9 +69,7 @@ div.station-list {
 }
 
 div.station-controls {
-    background-color: chocolate;
-    margin: .5rem;
-    border-radius: 50px;
+    background-color: white;
     position: relative;
 }
 
@@ -113,36 +110,50 @@ div.player {
     position: sticky;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 1);
     text-align: center;
-    height: 4rem;
-    display: flex;
 }
 
 div.player .player-station-information {
-    padding-left: 1rem;
     display: flex;
-    width: 40%;
     gap: .7rem;
+    justify-content: left;
     align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    height: 6rem;
 }
 
-div.player .player-station-information #player-station-name {
-    height: 100%;
+div.player .player-station-information img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+
+div.player-station-details {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+div.player .player-station-information #player-station-track-title, #player-station-track-artist {
     font-family: 'RDSans', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     color: white;
+    margin: 0;
+    text-align: left;
 }
 
 div.player .player-controls {
-    padding-right: 1rem;
     width: 60%;
     display: flex;
     gap: .5rem;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    height: 4rem;
 }
 
 div.player .player-controls button {

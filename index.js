@@ -13,6 +13,8 @@ downloadSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800
 <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>`
 
+let cuedFrames = {}
+
 function playButtonClicked() {
     const video = document.getElementById('video');
     const playButton = document.getElementById('play-button');
@@ -24,6 +26,8 @@ function playButtonClicked() {
         const ism3u8 = audioStreamUrl.split('?')[0].endsWith('.m3u8');
         if (ism3u8) {
             if (Hls.isSupported()) {
+                cuedFrames = {}
+
                 var hls = new Hls();
                 window.hls = hls;
                 hls.loadSource(audioStreamUrl);
@@ -57,6 +61,195 @@ function playButtonClicked() {
                         console.log(`Non-fatal error:`, data);
                     }
                 })
+
+                hls.on(Hls.Events.FRAG_PARSING_METADATA, (event, data) => {
+                    if (data && data.samples) {
+                        data.samples.forEach(sample => {
+                            // Assuming the metadata you want is in a TXXX frame (User defined text information frame)
+                            // and is a string. You might need to inspect the sample.data for other types.
+                            try {
+                                const decodedData = new TextDecoder().decode(sample.data);
+                                const base64Data = btoa(String.fromCharCode(...new Uint8Array(sample.data)));
+
+                                const bytes = new Uint8Array(sample.data);
+                                // Parse all TXXX frames and extract key-value pairs into a dictionary
+                                const txxxData = {};
+                                let tit2 = 'Unknown Title';
+                                let tpe1 = 'Unknown Artist';
+                                let tlen = '0';
+                                let i = 0;
+                                while (i < bytes.length - 7) {
+                                    // TXXX frame
+                                    if (
+                                        bytes[i] === 0x54 && // 'T'
+                                        bytes[i + 1] === 0x58 && // 'X'
+                                        bytes[i + 2] === 0x58 && // 'X'
+                                        bytes[i + 3] === 0x58 // 'X'
+                                    ) {
+                                        // Frame length: next 4 bytes (big-endian)
+                                        const n = (bytes[i + 4] << 24) | (bytes[i + 5] << 16) | (bytes[i + 6] << 8) | bytes[i + 7];
+                                        // Skip 2 bytes (i+8, i+9)
+                                        const frameStart = i + 10;
+                                        const frameEnd = frameStart + n;
+                                        if (frameEnd > bytes.length) break; // Prevent overflow
+
+                                        // Find first 0x00 after frameStart (start of key)
+                                        let keyStart = frameStart;
+                                        // The first byte is encoding, skip it
+                                        keyStart += 1;
+                                        let keyEnd = keyStart;
+                                        while (keyEnd < frameEnd && bytes[keyEnd] !== 0x00) keyEnd++;
+                                        const key = new TextDecoder().decode(bytes.slice(keyStart, keyEnd));
+
+                                        // Value starts after keyEnd+1, ends at frameEnd
+                                        const valueStart = keyEnd + 1;
+                                        const value = new TextDecoder().decode(bytes.slice(valueStart, frameEnd));
+
+                                        txxxData[key] = value;
+
+                                        // Move to next possible TXXX frame
+                                        i = frameEnd;
+                                    }
+                                    // TLEN frame
+                                    else if (
+                                        bytes[i] === 0x54 && // 'T'
+                                        bytes[i + 1] === 0x4C && // 'L'
+                                        bytes[i + 2] === 0x45 && // 'E'
+                                        bytes[i + 3] === 0x4E // 'N'
+                                    ) {
+                                        const n = (bytes[i + 4] << 24) | (bytes[i + 5] << 16) | (bytes[i + 6] << 8) | bytes[i + 7];
+                                        const frameStart = i + 10;
+                                        const frameEnd = frameStart + n;
+                                        if (frameEnd > bytes.length) break;
+                                        // First byte is encoding, skip it
+                                        const value = new TextDecoder().decode(bytes.slice(frameStart + 1, frameEnd));
+                                        // console.log('TLEN:', value);
+                                        tlen = value;
+                                        i = frameEnd;
+                                    }
+                                    // TIT2 frame
+                                    else if (
+                                        bytes[i] === 0x54 && // 'T'
+                                        bytes[i + 1] === 0x49 && // 'I'
+                                        bytes[i + 2] === 0x54 && // 'T'
+                                        bytes[i + 3] === 0x32 // '2'
+                                    ) {
+                                        const n = (bytes[i + 4] << 24) | (bytes[i + 5] << 16) | (bytes[i + 6] << 8) | bytes[i + 7];
+                                        const frameStart = i + 10;
+                                        const frameEnd = frameStart + n;
+                                        if (frameEnd > bytes.length) break;
+                                        // First byte is encoding, skip it
+                                        const value = new TextDecoder().decode(bytes.slice(frameStart + 1, frameEnd));
+                                        // console.log('TIT2:', value);
+                                        tit2 = value
+                                        i = frameEnd;
+                                    }
+                                    // TPE1 frame
+                                    else if (
+                                        bytes[i] === 0x54 && // 'T'
+                                        bytes[i + 1] === 0x50 && // 'P'
+                                        bytes[i + 2] === 0x45 && // 'E'
+                                        bytes[i + 3] === 0x31 // '1'
+                                    ) {
+                                        const n = (bytes[i + 4] << 24) | (bytes[i + 5] << 16) | (bytes[i + 6] << 8) | bytes[i + 7];
+                                        const frameStart = i + 10;
+                                        const frameEnd = frameStart + n;
+                                        if (frameEnd > bytes.length) break;
+                                        // First byte is encoding, skip it
+                                        const value = new TextDecoder().decode(bytes.slice(frameStart + 1, frameEnd));
+                                        // console.log('TPE1:', value);
+                                        tpe1 = value;
+                                        i = frameEnd;
+                                    }
+                                    else {
+                                        i++;
+                                    }
+                                }
+
+                                if (txxxData['cue_id']) {
+                                    start = txxxData['cue_time_start'] || `${Date.now()}`;
+
+                                    cuedFrames[txxxData['cue_id']] = {
+                                        start: parseFloat(start),
+                                        type: txxxData['cue_type'],
+                                        length: parseFloat(tlen),
+                                        artist: tpe1,
+                                        title: tit2,
+                                    };
+                                    // console.log('Cued frames:', cuedFrames);
+                                } else if (tit2 !== 'Unknown Title') {
+                                    cuedFrames[tit2] = {
+                                        start: Date.now(),
+                                        type: 'track',
+                                        length: parseFloat(tlen),
+                                        artist: tpe1,
+                                        title: tit2,
+                                    };
+                                }
+
+                                // console.log('TXXX frames:', txxxData);
+
+                                // console.log('ID3 Metadata (base64):', base64Data);
+                            } catch (e) {
+                                console.error('Error decoding ID3 metadata:', e);
+                            }
+                        });
+                    }
+                });
+
+                setInterval(() => {
+                    const now = Date.now();
+                    const currentTime = Date.now();
+                    // Find the currently playing cue based on start and length
+                    let currentCue = Object.values(cuedFrames).find(cue => {
+                        let cueEnd = cue.start + cue.length;
+                        return currentTime >= cue.start && currentTime < cueEnd;
+                    });
+
+                    if (!currentCue) {
+                        // Find the cue with the closest end time to currentTime (even if already ended)
+                        let cues = Object.values(cuedFrames);
+                        if (cues.length > 0) {
+                            currentCue = cues.reduce((closest, cue) => {
+                                let cueEnd = cue.start + cue.length;
+                                let diff = Math.abs(cueEnd - currentTime);
+                                if (!closest) return cue;
+                                let closestEnd = closest.start + closest.length;
+                                let closestDiff = Math.abs(closestEnd - currentTime);
+                                return diff < closestDiff ? cue : closest;
+                            }, null);
+                        }
+                    }
+
+                    // console.log('Current cue:', currentCue);
+                    // if (currentCue) {
+                        // console.log('Start:', currentCue.start, 'Ends: ' + (currentCue.start + currentCue.length), 'Ends in:', (currentCue.start + currentCue.length) - currentTime, 'ms', 'Length:', currentCue.length, 'ms');
+                    // }
+
+                    if (currentCue) {
+                        if (!navigator.mediaSession.metadata ||
+                            navigator.mediaSession.metadata.title !== currentCue.title ||
+                            navigator.mediaSession.metadata.artist !== currentCue.artist) {
+
+                            const playerStationInfo = document.getElementById('player-station-track-title');
+                            const playerStationArtist = document.getElementById('player-station-track-artist');
+                            playerStationInfo.innerText = currentCue.title;
+                            playerStationArtist.innerText = currentCue.artist;
+
+                            navigator.mediaSession.metadata = new MediaMetadata({
+                                title: currentCue.title,
+                                artist: currentCue.artist,
+                                artwork: [
+                                    {
+                                        src: "https://mx.radiodisney.com/_next/image?url=/_next/static/media/LogoPlayer.217fc174.png&w=256&q=75",
+                                        sizes: "256x256",
+                                        type: "image/png",
+                                    },
+                                ]
+                            });
+                        }
+                    }
+                }, 100)
             } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
                 video.src = audioStreamUrl;
                 video.addEventListener('loadedmetadata', function () {
@@ -91,8 +284,10 @@ function playStation(stationData) {
     }
     playButton.innerHTML = playSvg;
 
-    const playerStationInfo = document.getElementById('player-station-name');
+    const playerStationInfo = document.getElementById('player-station-track-title');
     playerStationInfo.innerText = stationData.name + ' ' + stationData.dial;
+    const playerStationArtist = document.getElementById('player-station-track-artist');
+    playerStationArtist.innerText = 'Radio Disney';
     document.title = stationData.title;
 
     const audioSource = stationData.streamingUrl;
@@ -123,14 +318,14 @@ function loadStationsData(countryCode) {
         stationInfo.appendChild(header);
         stationInfo.appendChild(dial);
 
-        const playButton = document.createElement('button');
-        playButton.innerHTML = downloadSvg;
-        playButton.classList.add('load-button');
-        playButton.addEventListener('click', function () {
+        // const playButton = document.createElement('button');
+        // playButton.innerHTML = downloadSvg;
+        // playButton.classList.add('load-button');
+        stationDiv.addEventListener('click', function () {
             playStation(station);
         });
 
-        stationControls.appendChild(playButton);
+        // stationControls.appendChild(playButton);
         stationControls.appendChild(stationInfo);
         stationDiv.appendChild(stationControls);
         stationList.appendChild(stationDiv);
@@ -141,7 +336,7 @@ fetch('/stations.json').then(response => response.json())
 .then(data => {
     data['es-tr'] = [
         {
-            streamingUrl: 'https://api.festivaltracker.org/aHR0cHM6Ly9kMWU1MTZuYmczb3d0Mi5jbG91ZGZyb250Lm5ldC9pbmRleC5tM3U4/index.m3u8',
+            streamingUrl: 'https://live.airstream.run/alba-ec-tropicalida-tropicalida/index.m3u8',
             name: 'Tropicalida',
             dial: '91.3 FM',
             title: 'Tropicalida EC'
@@ -150,7 +345,7 @@ fetch('/stations.json').then(response => response.json())
 
     data['es-al'] = [
         {
-            streamingUrl: 'https://api.festivaltracker.org/aHR0cHM6Ly9kMm91YmNwbDUwdnl1aS5jbG91ZGZyb250Lm5ldC9pbmRleC5tM3U4/index.m3u8',
+            streamingUrl: 'https://d2oubcpl50vyui.cloudfront.net/index.m3u8',
             name: 'Alfa Radio',
             dial: '104.1 FM',
             title: 'Alfa Radio EC'
@@ -163,7 +358,7 @@ fetch('/stations.json').then(response => response.json())
         const countryLetters = country.split('-').pop().toUpperCase();
         console.log(countryLetters);
 
-        const countryDiv = document.createElement('p');
+        const countryDiv = document.createElement('a');
         const link = document.createElement('a');
         link.innerText = countryLetters;
         link.href = `#${country}`;
