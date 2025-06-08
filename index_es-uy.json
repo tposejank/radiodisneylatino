@@ -975,8 +975,8 @@
                     "height": "720"
                 }
             ],
-            "_sentryTraceData": "1a75b447816c4df891a217c9dc38a060-a76544882736ea09-1",
-            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=1a75b447816c4df891a217c9dc38a060,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=true"
+            "_sentryTraceData": "4f0b008815e94875862bdbb1dcdcc464-a8f6dc0d294c46fa-0",
+            "_sentryBaggage": "sentry-environment=prd,sentry-release=K33ZOAWDQgrMJtpdUAwSp,sentry-public_key=85e689c13a0442dfa799f15648d4f110,sentry-trace_id=4f0b008815e94875862bdbb1dcdcc464,sentry-sample_rate=0.1,sentry-transaction=%2F,sentry-sampled=false"
         },
         "__N_SSP": true
     },
