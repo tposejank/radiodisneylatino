@@ -13,6 +13,9 @@ def get_next_data(request_text):
 scraper = cloudscraper.create_scraper()
 req = scraper.get('https://mx.radiodisney.com/')
 
+print(req.status, req.reason)
+print(req.text)
+
 extracted_data = get_next_data(req.text)
 mexico_data = json.loads(extracted_data)
 
