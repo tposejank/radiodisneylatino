@@ -6,14 +6,11 @@ import glob
 scraper = cloudscraper.create_scraper()
 req = scraper.get('https://mx.radiodisney.com/api/streaming')
 
-print(req.status_code, req.reason)
-print(req.text)
-
 stations_data = json.loads(req.text)
 
 station_data = {}
 for country in stations_data['stations']:
     code = country['code'].lower()
-    stations_data[f'es-{code}'] = country['stations']
+    station_data[f'es-{code}'] = country['stations']
 
 open('stations.json', 'w').write(json.dumps(station_data, indent=4))
