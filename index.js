@@ -15,9 +15,15 @@ downloadSvg = `<svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800
 
 let cuedFrames = {}
 
+let lastTime = 0;
+let stalledCount = 0;
+let checkInterval = null;
+
 function playButtonClicked() {
     const video = document.getElementById('video');
     const playButton = document.getElementById('play-button');
+
+    stalledCount = 0;
 
     if (window.attachedAudioSource !== window.lastAudioSource) {
         window.lastAudioSource = window.attachedAudioSource;
@@ -261,6 +267,33 @@ function playButtonClicked() {
             video.addEventListener('loadedmetadata', function () {
                 video.play();
             });
+
+            video.addEventListener("playing", () => {
+                console.log("Playing");
+                stalledCount = 0;
+            });
+
+            video.addEventListener("error", (e) => {
+                console.warn("Audio error:", e);
+            });
+
+            if (checkInterval) clearInterval(checkInterval);
+            checkInterval = setInterval(() => {
+                if (video.currentTime === lastTime) {
+                    stalledCount++;
+                    console.log(`Stalled for ${stalledCount} cycles`);
+                    if (stalledCount >= 3) {
+                        window.lastAudioSource = null;
+                        playButtonClicked();
+                    }
+                }
+
+                if (!video.paused) {
+                    stalledCount = 0;
+                }
+                
+                lastTime = video.currentTime;
+            }, 1000);
         }
         
         playButton.classList.add('loading');
@@ -356,7 +389,7 @@ fetch('/stations.json').then(response => response.json())
     const countries = Object.keys(data);
     countries.forEach(country => {
         const countryLetters = country.split('-').pop().toUpperCase();
-        console.log(countryLetters);
+        // console.log(countryLetters);
 
         const countryDiv = document.createElement('a');
         const link = document.createElement('a');
@@ -371,6 +404,11 @@ fetch('/stations.json').then(response => response.json())
 
         document.getElementById('country-list').appendChild(countryDiv);
     })
+
+    url = window.location.hash;
+    if (url) {
+        loadStationsData(url.replace('#', ''));
+    }
 })
 
 document.addEventListener('DOMContentLoaded', function () {
