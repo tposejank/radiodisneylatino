@@ -30,8 +30,59 @@ function playButtonClicked() {
         const audioStreamUrl = window.attachedAudioSource;
 
         const ism3u8 = audioStreamUrl.split('?')[0].endsWith('.m3u8');
+
+        rdname = window.stationInfo.title.split(' - ')[0] || 'Radio Disney';
+
+        navigator.mediaSession.metadata = new MediaMetadata({
+            title: window.stationInfo.name,
+            artist: window.stationInfo.dial,
+            album: rdname,
+            artwork: [
+                {
+                    src: "https://rdlatino.festivaltracker.org/RD2048.png",
+                    sizes: "2048x2048",
+                    type: "image/png",
+                },
+                {
+                    src: "https://rdlatino.festivaltracker.org/RD1024.png",
+                    sizes: "1024x1024",
+                    type: "image/png",
+                },
+                {
+                    src: "https://rdlatino.festivaltracker.org/RD512.png",
+                    sizes: "512x512",
+                    type: "image/png",
+                },
+                {
+                    src: "https://rdlatino.festivaltracker.org/RD256.png",
+                    sizes: "256x256",
+                    type: "image/png",
+                },
+                {
+                    src: "https://rdlatino.festivaltracker.org/RD128.png",
+                    sizes: "128x128",
+                    type: "image/png",
+                },
+                {
+                    src: "https://rdlatino.festivaltracker.org/RD64.png",
+                    sizes: "64x64",
+                    type: "image/png",
+                },
+                {
+                    src: "https://rdlatino.festivaltracker.org/RD32.png",
+                    sizes: "32x32",
+                    type: "image/png",
+                }
+            ]
+        });
+
         if (ism3u8) {
-            if (Hls.isSupported()) {
+            if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                video.src = audioStreamUrl;
+                video.addEventListener('loadedmetadata', function () {
+                    video.play();
+                });
+            } else if (Hls.isSupported()) {
                 cuedFrames = {}
 
                 var hls = new Hls();
@@ -48,7 +99,7 @@ function playButtonClicked() {
                             case Hls.ErrorTypes.NETWORK_ERROR:
                                 console.log("Fatal network error encountered, attempting to reload manifest...");
                                 // Optionally add a delay before attempting to reload
-                                setTimeout(function() {
+                                setTimeout(function () {
                                     hls.loadSource(audioStreamUrl);
                                 }, 3000); // Retry after 3 seconds
                                 break;
@@ -229,7 +280,7 @@ function playButtonClicked() {
 
                     // console.log('Current cue:', currentCue);
                     // if (currentCue) {
-                        // console.log('Start:', currentCue.start, 'Ends: ' + (currentCue.start + currentCue.length), 'Ends in:', (currentCue.start + currentCue.length) - currentTime, 'ms', 'Length:', currentCue.length, 'ms');
+                    // console.log('Start:', currentCue.start, 'Ends: ' + (currentCue.start + currentCue.length), 'Ends in:', (currentCue.start + currentCue.length) - currentTime, 'ms', 'Length:', currentCue.length, 'ms');
                     // }
 
                     if (currentCue) {
@@ -247,20 +298,45 @@ function playButtonClicked() {
                                 artist: currentCue.artist,
                                 artwork: [
                                     {
-                                        src: "https://mx.radiodisney.com/_next/image?url=/_next/static/media/LogoPlayer.217fc174.png&w=256&q=75",
+                                        src: "https://rdlatino.festivaltracker.org/RD2048.png",
+                                        sizes: "2048x2048",
+                                        type: "image/png",
+                                    },
+                                    {
+                                        src: "https://rdlatino.festivaltracker.org/RD1024.png",
+                                        sizes: "1024x1024",
+                                        type: "image/png",
+                                    },
+                                    {
+                                        src: "https://rdlatino.festivaltracker.org/RD512.png",
+                                        sizes: "512x512",
+                                        type: "image/png",
+                                    },
+                                    {
+                                        src: "https://rdlatino.festivaltracker.org/RD256.png",
                                         sizes: "256x256",
                                         type: "image/png",
                                     },
+                                    {
+                                        src: "https://rdlatino.festivaltracker.org/RD128.png",
+                                        sizes: "128x128",
+                                        type: "image/png",
+                                    },
+                                    {
+                                        src: "https://rdlatino.festivaltracker.org/RD64.png",
+                                        sizes: "64x64",
+                                        type: "image/png",
+                                    },
+                                    {
+                                        src: "https://rdlatino.festivaltracker.org/RD32.png",
+                                        sizes: "32x32",
+                                        type: "image/png",
+                                    }
                                 ]
                             });
                         }
                     }
                 }, 100)
-            } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-                video.src = audioStreamUrl;
-                video.addEventListener('loadedmetadata', function () {
-                    video.play();
-                });
             }
         } else {
             video.src = audioStreamUrl;
@@ -291,11 +367,11 @@ function playButtonClicked() {
                 if (!video.paused) {
                     stalledCount = 0;
                 }
-                
+
                 lastTime = video.currentTime;
             }, 1000);
         }
-        
+
         playButton.classList.add('loading');
         playButton.innerHTML = loadingSvg;
     } else {
@@ -308,6 +384,8 @@ function playButtonClicked() {
 }
 
 function playStation(stationData) {
+    console.log(stationData);
+    window.stationInfo = stationData;
     console.log('play ' + stationData.name);
 
     const playButton = document.getElementById('play-button');
@@ -347,7 +425,7 @@ function loadStationsData(countryCode) {
         header.innerText = station.name;
         const dial = document.createElement('h3');
         dial.innerText = station.dial;
-        
+
         stationInfo.appendChild(header);
         stationInfo.appendChild(dial);
 
@@ -356,72 +434,90 @@ function loadStationsData(countryCode) {
         // playButton.classList.add('load-button');
         stationDiv.addEventListener('click', function () {
             playStation(station);
+            title = 'Radio Disney ' + countryCode;
+            path = '?country=' + countryCode + '&id=' + station.id;
+            history.pushState({ page: title }, title, path);
         });
+        stationDiv.setAttribute('data-station-id', station.id);
 
         // stationControls.appendChild(playButton);
         stationControls.appendChild(stationInfo);
         stationDiv.appendChild(stationControls);
         stationList.appendChild(stationDiv);
     })
+
+    url = window.location.search;
+    params = new URLSearchParams(url);
+    if (params.get('id')) {
+        for (let child of stationList.children) {
+            if (child.getAttribute('data-station-id') === params.get('id')) {
+                child.click();
+                video.play();
+                break;
+            }
+        }
+    }
 }
 
 fetch('/stations.json').then(response => response.json())
-.then(data => {
-    data['es-tr'] = [
-        {
-            streamingUrl: 'https://live.airstream.run/alba-ec-tropicalida-tropicalida/index.m3u8',
-            name: 'Tropicalida',
-            dial: '91.3 FM',
-            title: 'Tropicalida EC'
+    .then(data => {
+        data['TR'] = [
+            {
+                id: 'tropicalida-ec',
+                streamingUrl: 'https://live.airstream.run/alba-ec-tropicalida-tropicalida/index.m3u8',
+                name: 'Tropicalida',
+                dial: '91.3 FM',
+                title: 'Tropicalida EC'
+            }
+        ]
+
+        data['AL'] = [
+            {
+                id: 'alfa-radio-ec',
+                streamingUrl: 'https://d2oubcpl50vyui.cloudfront.net/index.m3u8',
+                name: 'Alfa Radio',
+                dial: '104.1 FM',
+                title: 'Alfa Radio EC'
+            }
+        ]
+
+        window.stationData = data;
+        const countries = Object.keys(data);
+        countries.forEach(country => {
+            const countryLetters = country.toUpperCase();
+            // console.log(countryLetters);
+
+            const countryDiv = document.createElement('a');
+            const link = document.createElement('a');
+            link.innerText = countryLetters;
+            link.href = `?country=${country}`;
+            link.setAttribute('data-country', country);
+            countryDiv.appendChild(link);
+
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                path = event.target.getAttribute('href');
+                title = 'Radio Disney ' + countryLetters;
+                history.pushState({ page: title }, title, path);
+                loadStationsData(link.getAttribute('data-country'));
+            });
+
+            document.getElementById('country-list').appendChild(countryDiv);
+        })
+
+        url = window.location.search;
+        params = new URLSearchParams(url);
+        if (params.get('country')) {
+            loadStationsData(params.get('country'));
         }
-    ]
-
-    data['es-al'] = [
-        {
-            streamingUrl: 'https://d2oubcpl50vyui.cloudfront.net/index.m3u8',
-            name: 'Alfa Radio',
-            dial: '104.1 FM',
-            title: 'Alfa Radio EC'
-        }
-    ]
-
-    window.stationData = data;
-    const countries = Object.keys(data);
-    countries.forEach(country => {
-        const countryLetters = country.split('-').pop().toUpperCase();
-        // console.log(countryLetters);
-
-        const countryDiv = document.createElement('a');
-        const link = document.createElement('a');
-        link.innerText = countryLetters;
-        link.href = `#${country}`;
-        link.setAttribute('data-country', country);
-        countryDiv.appendChild(link);
-
-        link.addEventListener('click', function (event) {
-            loadStationsData(link.getAttribute('data-country'));
-        });
-
-        document.getElementById('country-list').appendChild(countryDiv);
     })
-
-    url = window.location.hash;
-    if (url) {
-        loadStationsData(url.replace('#', ''));
-    }
-})
 
 document.addEventListener('DOMContentLoaded', function () {
     const playButton = document.getElementById('play-button');
     playButton.innerHTML = playSvg;
     playButton.addEventListener('click', playButtonClicked);
 
-    const slider = document.getElementById('volume-slider');
     const video = document.getElementById('video');
-    slider.addEventListener('input', function () {
-        video.volume = slider.value / 100;
-    });
-    slider.value = 100; // Set initial volume to 50%
 
     video.addEventListener('canplay', function () {
         playButton.innerHTML = pauseSvg;
