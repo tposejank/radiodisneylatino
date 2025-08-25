@@ -1,1 +1,386 @@
-{}
+{
+    "AR": [
+        {
+            "id": "c48fdd0b107b008f51addc1eacb9b79b",
+            "stationId": 8,
+            "dial": "FM 94.3",
+            "name": "Argentina",
+            "title": "Radio Disney - Argentina FM 94.3",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -42.175192560007694,
+                "longitude": -63.70432595,
+                "radius": 1000
+            },
+            "whatsappNumber": "541122779430"
+        }
+    ],
+    "BO": [
+        {
+            "id": "b3e5d3c4291e2a22f65c02839f96a6be",
+            "stationId": 18,
+            "dial": "FM 102.7",
+            "name": "La Paz",
+            "title": "Radio Disney - La Paz FM 102.7",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -16.489758,
+                "longitude": -68.118844,
+                "radius": 200
+            },
+            "whatsappNumber": "59172166622"
+        },
+        {
+            "id": "da7bd0af5d7a3fc5a06036d7b1ae425e",
+            "stationId": 18,
+            "dial": "FM 98.5",
+            "name": "Santa Cruz de la Sierra",
+            "title": "Radio Disney - Santa Cruz de la Sierra FM 98.5",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -17.866667,
+                "longitude": -63,
+                "radius": 200
+            },
+            "whatsappNumber": "59172166622"
+        },
+        {
+            "id": "e8f2ed6c798aabf072ac09a5debc12a8",
+            "stationId": 19,
+            "dial": "FM 102.7",
+            "name": "Cochabamba",
+            "title": "Radio Disney - Cochabamba FM 102.7",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -16.8637506,
+                "longitude": -65.47573599999998,
+                "radius": 200
+            },
+            "whatsappNumber": "59172166622"
+        },
+        {
+            "id": "f4dbee531caf0386d76614dd4cb281ba",
+            "stationId": 19,
+            "dial": "FM 100.9",
+            "name": "Tarija",
+            "title": "Radio Disney - Tarija FM 100.9",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BOL_SCAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -21.53969,
+                "longitude": -64.74363,
+                "radius": 200
+            },
+            "whatsappNumber": "59172166622"
+        }
+    ],
+    "BR": [
+        {
+            "id": "82623b691367a44541e6835d1836530c",
+            "stationId": 2,
+            "dial": "FM 91.3",
+            "name": "Brasil",
+            "title": "R\u00e1dio Disney - Brasil FM 91.3",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BRA_SP.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -8.531754695440627,
+                "longitude": -42.07701029999998,
+                "radius": 2000
+            },
+            "whatsappNumber": "5511943999130"
+        }
+    ],
+    "CL": [
+        {
+            "id": "faa0b5f7bf99b3f5e06634ac0c8c3537",
+            "stationId": 17,
+            "dial": "FM 95.3",
+            "name": "Santiago",
+            "title": "Radio Disney - Santiago FM 95.3",
+            "isDefault": true,
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -33.431440887568165,
+                "longitude": -71.19140649999997,
+                "radius": 300
+            },
+            "whatsappNumber": "56941707005"
+        },
+        {
+            "id": "d711000b6472ced1a1f7335a73c0f594",
+            "stationId": 17,
+            "dial": "FM 97.3",
+            "name": "Gran Concepci\u00f3n",
+            "title": "Radio Disney - Gran Concepci\u00f3n FM 97.3",
+            "isDefault": true,
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -33.431440887568165,
+                "longitude": -71.19140649999997,
+                "radius": 300
+            },
+            "whatsappNumber": "56941707005"
+        },
+        {
+            "id": "9b57a26ac7ce4d54de4b596ef4e95543",
+            "stationId": 17,
+            "dial": "FM 94.1",
+            "name": "Arica",
+            "title": "Radio Disney - Arica FM 94.1",
+            "isDefault": true,
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -33.431440887568165,
+                "longitude": -71.19140649999997,
+                "radius": 300
+            },
+            "whatsappNumber": "56941707005"
+        },
+        {
+            "id": "7ff9e610b9886af22cffaa052bf378d5",
+            "stationId": 17,
+            "dial": "FM 98.3",
+            "name": "Iquique",
+            "title": "Radio Disney - Iquique FM 98.3",
+            "isDefault": true,
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -33.431440887568165,
+                "longitude": -71.19140649999997,
+                "radius": 300
+            },
+            "whatsappNumber": "56941707005"
+        },
+        {
+            "id": "4c557d705f92aeccd8d69d0974103cb3",
+            "stationId": 17,
+            "dial": "FM 90.9",
+            "name": "San Antonio",
+            "title": "Radio Disney - San Antonio FM 90.9",
+            "isDefault": true,
+            "streamingUrl": "https://mdstrm.com/audio/67fe714d82a1ac0e129ae3cc/live.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -33.431440887568165,
+                "longitude": -71.19140649999997,
+                "radius": 300
+            },
+            "whatsappNumber": "56941707005"
+        }
+    ],
+    "CR": [
+        {
+            "id": "547c0371d4ba768841c656313bbfd8a4",
+            "stationId": 12,
+            "dial": "FM 101.1",
+            "name": "Costa Rica",
+            "title": "Radio Disney - Costa Rica FM 101.1",
+            "isDefault": true,
+            "streamingUrl": "https://ic.streann.com/disneycostarica",
+            "location": {
+                "latitude": 9.575629417819096,
+                "longitude": -84.63233425000004,
+                "radius": 200
+            },
+            "whatsappNumber": "50686910000"
+        }
+    ],
+    "EC": [
+        {
+            "id": "8d7e8050de8b6de60d5797e7716a1804",
+            "stationId": 4,
+            "dial": "FM 93.7",
+            "name": "Ecuador",
+            "title": "Radio Disney - Ecuador FM 93.7",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ECU_GYAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -1.4249326,
+                "longitude": -78.6909263,
+                "radius": 400
+            },
+            "whatsappNumber": "593991122222"
+        }
+    ],
+    "MX": [
+        {
+            "id": "8931a7d39014eedfb4101175dd36cccf",
+            "stationId": 3,
+            "dial": "FM 92.1",
+            "name": "Ciudad de M\u00e9xico",
+            "title": "Radio Disney - Ciudad de M\u00e9xico FM 92.1",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHFOFMAAC.m3u8?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": 27.46431421972425,
+                "longitude": -103.46204475000002,
+                "radius": 10
+            },
+            "whatsappNumber": "525551470921"
+        },
+        {
+            "id": "b693de580254c3a1acb0f4cb40a1b756",
+            "stationId": 25,
+            "dial": "FM 102.1",
+            "name": "Toluca",
+            "title": "Radio Disney - Toluca FM 102.1",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHTOMFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": 19.284077816913562,
+                "longitude": -99.65439673066739,
+                "radius": 5
+            },
+            "whatsappNumber": "527224541021"
+        },
+        {
+            "id": "6c77ac5908fc850e7c02f5e8e2911e16",
+            "stationId": 25,
+            "dial": "FM 95.7",
+            "name": "Pachuca",
+            "title": "Radio Disney - Pachuca FM 95.7",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHPCAFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": 20.11640054433642,
+                "longitude": -98.742831707198,
+                "radius": 5
+            },
+            "whatsappNumber": "527714731957"
+        },
+        {
+            "id": "150f52ef875d41d7ae0ef755f97e77be",
+            "stationId": 25,
+            "dial": "FM 92.9",
+            "name": "Puebla",
+            "title": "Radio Disney - Puebla FM 92.9",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHECDFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": 19.054133771497817,
+                "longitude": -98.22493084508524,
+                "radius": 24
+            },
+            "whatsappNumber": "522211129173"
+        },
+        {
+            "id": "e77d04de9d814b4b4ce6d4b9f4e861e7",
+            "stationId": 25,
+            "dial": "FM 93.1",
+            "name": "Mazatl\u00e1n",
+            "title": "Radio Disney - Mazatl\u00e1n FM 93.1",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHMZTFMAAC.aac?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": 23.245274,
+                "longitude": -106.446916,
+                "radius": 150
+            },
+            "whatsappNumber": "526694540931"
+        }
+    ],
+    "PA": [
+        {
+            "id": "1a76a56f6a83d86af617079f537afa4a",
+            "stationId": 21,
+            "dial": "FM 101.3",
+            "name": "Panam\u00e1",
+            "title": "Radio Disney - Panam\u00e1 FM 101.3",
+            "isDefault": true,
+            "streamingUrl": "https://ic.streann.com/disneypanama",
+            "location": {
+                "latitude": 8.451054543718001,
+                "longitude": -80.07900199999995,
+                "radius": 300
+            },
+            "whatsappNumber": "50760821422"
+        }
+    ],
+    "PY": [
+        {
+            "id": "b8e7008b8fe154871a21c382b7618bd7",
+            "stationId": 7,
+            "dial": "FM 96.5",
+            "name": "Paraguay",
+            "title": "Radio Disney - Paraguay FM 96.5",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PAR_AS.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -23.442503,
+                "longitude": -58.443831999999986,
+                "radius": 500
+            },
+            "whatsappNumber": "595986936000"
+        }
+    ],
+    "PE": [
+        {
+            "id": "3092924d5a7450489e13b5aa04832c2d",
+            "stationId": 81,
+            "dial": "FM 104.7",
+            "name": "Per\u00fa",
+            "title": "Radio Disney - Per\u00fa FM 104.7",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PER_LM.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -12.05559,
+                "longitude": -77.226911,
+                "radius": 750
+            },
+            "whatsappNumber": "51938971911"
+        }
+    ],
+    "DO": [
+        {
+            "id": "80002fa7141f2ea694133c68930eb5ad",
+            "stationId": 10,
+            "dial": "FM 97.3",
+            "name": "Santo Domingo",
+            "title": "Radio Disney - Santo Domingo FM 97.3",
+            "isDefault": true,
+            "streamingUrl": "https://stream.zeno.fm/zky9fvlfkootv",
+            "location": {
+                "latitude": 18.466667,
+                "longitude": -69.94999999999999,
+                "radius": 100
+            },
+            "whatsappNumber": "18295780973"
+        },
+        {
+            "id": "edceb5c610ccf50060068b38ea1577dd",
+            "stationId": 20,
+            "dial": "FM 89.3",
+            "name": "Santiago",
+            "title": "Radio Disney - Santiago FM 89.3",
+            "isDefault": true,
+            "streamingUrl": "https://stream.zeno.fm/6rmxudfub3cvv",
+            "location": {
+                "latitude": 19.466667,
+                "longitude": -70.69999999999999,
+                "radius": 70
+            },
+            "whatsappNumber": "18295780893"
+        }
+    ],
+    "UY": [
+        {
+            "id": "e1b9f8ce167bfcbf275e81f1d04b8cf0",
+            "stationId": 9,
+            "dial": "FM 103.7",
+            "name": "Uruguay",
+            "title": "Radio Disney - Uruguay FM 103.7",
+            "isDefault": true,
+            "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_URY_MV.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
+            "location": {
+                "latitude": -32.41950025196723,
+                "longitude": -55.5736885,
+                "radius": 300
+            },
+            "whatsappNumber": "598092103700"
+        }
+    ]
+}
