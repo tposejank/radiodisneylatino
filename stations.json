@@ -172,23 +172,6 @@
             "whatsappNumber": "56941707005"
         }
     ],
-    "CR": [
-        {
-            "id": "547c0371d4ba768841c656313bbfd8a4",
-            "stationId": 12,
-            "dial": "FM 101.1",
-            "name": "Costa Rica",
-            "title": "Radio Disney - Costa Rica FM 101.1",
-            "isDefault": true,
-            "streamingUrl": "https://ic.streann.com/disneycostarica",
-            "location": {
-                "latitude": 9.575629417819096,
-                "longitude": -84.63233425000004,
-                "radius": 200
-            },
-            "whatsappNumber": "50686910000"
-        }
-    ],
     "EC": [
         {
             "id": "8d7e8050de8b6de60d5797e7716a1804",
