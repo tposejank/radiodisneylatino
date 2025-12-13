@@ -332,6 +332,10 @@ const initialCountry = countries[0];
 			if (country) switchCountry(country);
 		});
 
+		ensureMediaSessionHandlers();
+	}
+
+	function ensureMediaSessionHandlers() {
 		// Media Session Actions
 		if ("mediaSession" in navigator) {
 			navigator.mediaSession.setActionHandler("play", () => {
@@ -340,11 +344,15 @@ const initialCountry = countries[0];
 			navigator.mediaSession.setActionHandler("pause", () => {
 				if (currentAudio) currentAudio.pause();
 			});
-			navigator.mediaSession.setActionHandler("stop", () => {
-				if (currentAudio) currentAudio.pause();
-			});
-			navigator.mediaSession.setActionHandler("previoustrack", playPrev);
-			navigator.mediaSession.setActionHandler("nexttrack", playNext);
+			// navigator.mediaSession.setActionHandler("stop", () => {
+			// 	if (currentAudio) currentAudio.pause();
+			// });
+			navigator.mediaSession.setActionHandler("previoustrack", () =>
+				playPrev(),
+			);
+			navigator.mediaSession.setActionHandler("nexttrack", () =>
+				playNext(),
+			);
 
 			// Disable seeking
 			// navigator.mediaSession.setActionHandler("seekbackward", null);
@@ -432,6 +440,7 @@ const initialCountry = countries[0];
 			station.dial,
 			station.title,
 		);
+		ensureMediaSessionHandlers();
 
 		// If station is in a different country, switch view
 		if (country !== currentCountry) {
@@ -481,6 +490,7 @@ const initialCountry = countries[0];
 
 			// Play new audio
 			currentAudio.play().catch((e) => console.error("Play failed:", e));
+			ensureMediaSessionHandlers();
 
 			// Update UI
 			playerTitle.innerText = station.name;
@@ -494,6 +504,7 @@ const initialCountry = countries[0];
 				station.dial,
 				station.title.split(" - ")[0],
 			);
+			ensureMediaSessionHandlers();
 
 			// Attach listeners to new audio
 			currentAudio.addEventListener("playing", () =>
