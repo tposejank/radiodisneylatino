@@ -274,7 +274,7 @@
             "name": "Panam\u00e1",
             "title": "Radio Disney - Panam\u00e1 FM 101.3",
             "isDefault": true,
-            "streamingUrl": "https://ic.streann.com/disneypanama",
+            "streamingUrl": "https://live-us.streann.tech/disneypanama/disneypanama/playlist.m3u8",
             "location": {
                 "latitude": 8.451054543718001,
                 "longitude": -80.07900199999995,
@@ -302,11 +302,11 @@
     ],
     "PE": [
         {
-            "id": "3092924d5a7450489e13b5aa04832c2d",
+            "id": "b7ffa3401feed36de843f29c958cf1a0",
             "stationId": 81,
-            "dial": "FM 104.7",
+            "dial": "FM 94.3",
             "name": "Per\u00fa",
-            "title": "Radio Disney - Per\u00fa FM 104.7",
+            "title": "Radio Disney - Per\u00fa FM 94.3",
             "isDefault": true,
             "streamingUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_PER_LM.mp3?dist=web-radiodisney&bundle-id=com.disney.radiodisneybrazil_goo",
             "location": {
