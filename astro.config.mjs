@@ -7,5 +7,8 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+  server: {
+    allowedHosts: ["ftracker-ca-on-dev2.festivaltracker.org"],
+  },
 });
