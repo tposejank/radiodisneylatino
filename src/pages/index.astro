@@ -57,7 +57,7 @@ const initialCountry = countries[0];
 
         <!-- Mobile Country Select (Sticky) -->
         <div
-            class="md:hidden sticky top-0 z-20 bg-black/80 backdrop-blur-xl border-b border-white/10 p-4"
+            class="md:hidden sticky top-0 z-20 bg-black/80 backdrop-blur-xl border-b border-white/10 p-6"
         >
             <select
                 id="country-select-mobile"
@@ -117,7 +117,7 @@ const initialCountry = countries[0];
 
             <!-- Main Content / Station Grid -->
             <div
-                class="flex-1 overflow-y-auto p-6 md:p-8 bg-gradient-to-b from-[#050505] to-black"
+                class="flex-1 overflow-y-auto p-6 md:p-8 bg-linear-to-b from-[#050505] to-black"
             >
                 <div
                     id="stations-container"
@@ -136,7 +136,7 @@ const initialCountry = countries[0];
             <!-- Track Info -->
             <div class="flex items-center gap-4 w-1/2 min-w-0">
                 <div
-                    class="w-14 h-14 rounded-lg bg-white/5 flex-shrink-0 overflow-hidden relative group border border-white/5"
+                    class="w-14 h-14 rounded-lg bg-white/5 shrink-0 overflow-hidden relative group border border-white/5"
                 >
                     <img
                         id="player-art"
@@ -323,14 +323,27 @@ const initialCountry = countries[0];
         // Media Session Actions
         if ("mediaSession" in navigator) {
             navigator.mediaSession.setActionHandler("play", () => {
-                if (currentAudio) currentAudio.play();
+                if (currentAudio) {
+                    currentAudio.play();
+                    navigator.mediaSession.playbackState = "playing";
+                }
             });
             navigator.mediaSession.setActionHandler("pause", () => {
-                if (currentAudio) currentAudio.pause();
+                if (currentAudio) {
+                    currentAudio.pause();
+                    navigator.mediaSession.playbackState = "paused";
+                }
             });
-            // navigator.mediaSession.setActionHandler("stop", () => {
-            // 	if (currentAudio) currentAudio.pause();
-            // });
+
+            // Explicitly handle "stop" to prevent iOS from killing the audio
+            // session with its default behavior
+            navigator.mediaSession.setActionHandler("stop", () => {
+                if (currentAudio) {
+                    currentAudio.pause();
+                    navigator.mediaSession.playbackState = "paused";
+                }
+            });
+
             navigator.mediaSession.setActionHandler("previoustrack", () =>
                 playPrev(),
             );
@@ -338,10 +351,9 @@ const initialCountry = countries[0];
                 playNext(),
             );
 
-            // Disable seeking
-            // navigator.mediaSession.setActionHandler("seekbackward", null);
-            // navigator.mediaSession.setActionHandler("seekforward", null);
-            // navigator.mediaSession.setActionHandler("seekto", null);
+            // Do NOT set seekbackward/seekforward/seekto handlers (even to null).
+            // On iOS, registering these causes the lock screen to show seek
+            // buttons instead of skip/previous buttons.
         }
     }
 
@@ -388,14 +400,14 @@ const initialCountry = countries[0];
     }
 
     function playNext() {
-        if (!currentStation) return;
+        if (!currentStation || isTransitioning) return;
         const idx = allStations.findIndex((s) => s.id === currentStation.id);
         const nextIdx = (idx + 1) % allStations.length;
         playStation(currentCountry, allStations[nextIdx]);
     }
 
     function playPrev() {
-        if (!currentStation) return;
+        if (!currentStation || isTransitioning) return;
         const idx = allStations.findIndex((s) => s.id === currentStation.id);
         const prevIdx = (idx - 1 + allStations.length) % allStations.length;
         playStation(currentCountry, allStations[prevIdx]);
@@ -411,6 +423,10 @@ const initialCountry = countries[0];
             return;
         }
 
+        // Guard against re-entrant calls (e.g. rapid skip presses on iOS)
+        if (isTransitioning) return;
+        isTransitioning = true;
+
         // Update URL
         const url = new URL(window.location.href);
         url.searchParams.set("country", country);
@@ -419,6 +435,7 @@ const initialCountry = countries[0];
 
         console.log(station);
 
+        // Update media session immediately so iOS doesn't show stale metadata
         updateMediaSession(
             `Cargando ${station.name}...`,
             station.dial,
@@ -426,6 +443,11 @@ const initialCountry = countries[0];
         );
         playerTitle.innerText = `Cargando ${station.name}...`;
         playerArtist.innerText = `Cargando ${station.dial}`;
+
+        // Keep playback state as "playing" so iOS doesn't release the session
+        if ("mediaSession" in navigator) {
+            navigator.mediaSession.playbackState = "playing";
+        }
         ensureMediaSessionHandlers();
 
         // If station is in a different country, switch view
@@ -436,8 +458,9 @@ const initialCountry = countries[0];
         currentStation = station;
         setLoading(true);
 
-        // Create new audio instance
-        const nextAudio = new Audio();
+        // Create new audio instance — this lets us load the new stream in
+        // the background while the current one keeps playing
+        let nextAudio: HTMLAudioElement | null = new Audio();
         nextAudio.crossOrigin = "anonymous";
         let nextHls: Hls | null = null;
 
@@ -460,22 +483,32 @@ const initialCountry = countries[0];
 
         // When ready to play
         const onReady = () => {
-            // Stop previous audio
+            // Stop previous audio — just pause and dereference, do NOT call
+            // removeAttribute("src") + load() as that tears down the iOS
+            // audio session and blocks the new audio's play() call.
             if (currentAudio) {
                 currentAudio.pause();
-                currentAudio.removeAttribute("src");
-                currentAudio.load();
             }
             if (currentHls) {
                 currentHls.destroy();
             }
 
-            // Swap references
+            // Swap references (old audio becomes garbage-collectable)
             currentAudio = nextAudio;
+            nextAudio = null;
             currentHls = nextHls;
+            nextHls = null;
 
             // Play new audio
-            currentAudio.play().catch((e) => console.error("Play failed:", e));
+            currentAudio!
+                .play()
+                .then(() => {
+                    if ("mediaSession" in navigator) {
+                        navigator.mediaSession.playbackState = "playing";
+                    }
+                })
+                .catch((e) => console.error("Play failed:", e));
+
             ensureMediaSessionHandlers();
 
             // Update UI
@@ -493,23 +526,39 @@ const initialCountry = countries[0];
             ensureMediaSessionHandlers();
 
             // Attach listeners to new audio
-            currentAudio.addEventListener("playing", () =>
-                updatePlayButton(true),
-            );
-            currentAudio.addEventListener("pause", () =>
-                updatePlayButton(false),
-            );
-            currentAudio.addEventListener("waiting", () => setLoading(true));
-            currentAudio.addEventListener("canplay", () => setLoading(false));
+            currentAudio!.addEventListener("playing", () => {
+                updatePlayButton(true);
+                if ("mediaSession" in navigator) {
+                    navigator.mediaSession.playbackState = "playing";
+                }
+            });
+            currentAudio!.addEventListener("pause", () => {
+                updatePlayButton(false);
+                if ("mediaSession" in navigator) {
+                    navigator.mediaSession.playbackState = "paused";
+                }
+            });
+            currentAudio!.addEventListener("waiting", () => setLoading(true));
+            currentAudio!.addEventListener("canplay", () => setLoading(false));
+
+            // Allow next transition
+            isTransitioning = false;
         };
 
         // Listen for ready state
         if (nextHls) {
             nextHls.on(Hls.Events.MANIFEST_PARSED, onReady);
         } else {
-            nextAudio.addEventListener("loadedmetadata", onReady);
+            nextAudio.addEventListener("canplay", onReady, {
+                once: true,
+            });
             nextAudio.load();
         }
+
+        // Safety timeout: if onReady never fires, unlock transitions
+        setTimeout(() => {
+            isTransitioning = false;
+        }, 10000);
     }
 
     function togglePlay() {
